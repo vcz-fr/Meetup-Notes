@@ -18,6 +18,7 @@ By [Arnaud Langlade](https://twitter.com/arnolanglade), Developer @ Akeneo / Syl
 A repository must represent a collection of objects and not an entire project.
 The base contract of a repository should only contain an "add", a "get", a "remove" and a "nextID" function.
 These functions may throw a `\LogicException` whenever they reach an undesired situation such as when "get" returns nothing.
+Finally, always use UUIDs as identifiers to hide the sequences of stored entities.
 
 A proposed practice is to extract the reading capabilities of the repositories in a separate pattern: query functions.
 This way, Repositories will only be used for writing purposes and Query functions will read data and hydrate custom entities.
