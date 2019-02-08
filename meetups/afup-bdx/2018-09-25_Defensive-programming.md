@@ -1,17 +1,6 @@
 # Defensive programming
 
-## A message from the AFUP Bordeaux meetup team
-
-[AFUP Bordeaux](https://twitter.com/AFUP_Bordeaux) is a group meant for the PHP developers of the region of Bordeaux.
-The group is led by Adrien Roches, Benjamin Rambaud, [Julien Vitte](https://twitter.com/pitchart), [Mikael Letang](https://twitter.com/mikael_letang) and [Nicolas Perussel](https://twitter.com/mamoot64).
-They have partnerships with [ENI](https://www.editions-eni.fr/) and [Eyrolles](https://www.eyrolles.com/), technical books publishers.
-
-AFUP Bordeaux is on the lookout for speakers and sponsors for their events. 
-Do not forget you can also help them sponsoring events by subscribing for just 25€ per year!
-
-## Presentations
-
-### Good or Bad repository?
+## Good or Bad repository?
 By [Arnaud Langlade](https://twitter.com/arnolanglade), Developer @ Akeneo / Sylios  
 [AFUP page](https://afup.org/talks/2822-quelle-difference-y-a-t-il-entre-le-bon-et-le-mauvais-repository) - [Slides](https://arnolanglade.gitlab.io/bad-or-good-repository)
 
@@ -32,7 +21,7 @@ Tips and tricks:
 - `$entityManager->flush($entity)` only flushes `$entity`. `$entityManager->flush()` flushed every pending dirty entity.
 - You can use a middleware, under the form of CQRS for instance, to ask for a flush after multiple updates.
 
-### Defensive programming
+## Defensive programming
 By [Nicolas Perussel](https://twitter.com/mamoot64), PHP Architect @ ekino
 
 Defensive programming can be seen as a collection of practices that will solidify your code in order to prevent future breakage by other developers.
