@@ -1,5 +1,5 @@
 # Delivering  beautiful and fast images and video
-By [Doug Sillars](https://twitter.com/dougsillars) - [Personal website](https://dougsillars.com/)
+By [Doug Sillars](https://twitter.com/dougsillars), Freelance Developer - [Personal website](https://dougsillars.com/)
 
 In the domain of Web performance, the best free developers tools you can find in the market are [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [WebPageTest.org](https://www.webpagetest.org/).
 
