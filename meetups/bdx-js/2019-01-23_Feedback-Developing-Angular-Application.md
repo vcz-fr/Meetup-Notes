@@ -17,4 +17,27 @@ From the technological standpoint, the new web application is written in Angular
 
 Why Angular? Because the front is an SPA, allows for robust architectures and because there was internal knowledge for this technology, just like .Net Core.
 
-For each request, the server will prepare some data, call the Server-Side Rendering and enrich the results with tracking or metadata depending on the user type. Anonymous requests are cached and served from the edge. The architecture does not allow some browser primitives to be called, such as cookies, window or relative URLs. All the modules are platform-agnostic. They are thought in such a way that platform-specific features are implemented under the form of an implementable interface with the aim to reuse as much code as possible.
+For each request, the server will prepare some data, call the Server-Side Rendering and enrich the results with tracking or metadata depending on the user type. Anonymous requests are cached and served from the edge. The architecture does not allow some browser primitives to be called, such as cookies, window or relative URLs. Thus, all the modules are platform-agnostic; they are thought in such a way that platform-specific features are implemented under the form of an implementable interface with the aim to reuse as much code as possible.
+
+## Quality Assurance
+
+When working on an architecture that is that massive, ground rules need to be enforced. Each piece of code that is sent to the remotes must verify the following points: passing the tests, showing the intention through peer reviews, having no duplication, minimalism through mutation tests and be fast through regression tests. Speaking of tests, the company targets 90 to 95% of unit test coverage with tests that are as relevant as possible. To enforce that rule, hooks prevent developers from sending code that is not tested or covered enough.
+
+The test process is the following: a large base of unit tests, then integration / SSR tests, then functional / end-to-end tests and finally human and business tests with dedicated QA teams. The QA teams automate their tests with the [Cucumber](https://cucumber.io/) framework. They make sure to cover critical paths and features and keep them up to date.
+
+Their Git flow is classic: they have a development branch which developers branch out from to develop their features. After a successful review tunnel, developers rebase their changes on the latest version of the development branch and publish them. The review tunnel must receive two validations based on the following checks: code expressiveness, tests, best practices, build checks. Reviews are also used as an opportunity to spark discussion and train new developers on the technologies and the architecture of their respective projects.
+
+Some recommendations from the team:
+- Keep your builds small, always keep tab of their size during your CI;
+- Stay up to date with your technologies, especially Angular: Angular 8 promises to speed up rendering with its new engine;
+- Use performance tools at every step: [WebPageTest](https://www.webpagetest.org/), [LightHouse](https://developers.google.com/web/tools/lighthouse/), [YellowLab](https://yellowlab.tools/), etc.
+
+## Organization
+
+Before their transition, Betclic used to have technology-oriented teams. This approach led to vast differences in terms of engineering practices, implementation consistency across platforms and release dates. They moved to feature teams with devs from all horizons that can share their way of implementing their features consistently since their Product Owner will be the same. An Expert Team backs up the feature teams, work on architecture and design and serve as the entry point for newcomers.
+
+From time to time, the developers of a same technology meet to discuss about their feature team progression. These meetings are open to the developers of other technologies to guarantee a more coherent experience across all platforms and add technical openness to the mix.
+
+## The future
+
+Currently, the build times are intense and can last up to an hour! There are projects and ideas to reduce it, though: parallelize, cache, finetune environments, nightly builds. The development experience becomes more difficult because of that: as more developers are added on the teams, the build queue grows. A solution for that would be to slice the product in relevant micro-services with an adapted experience. Finally, to reach a better global product quality, the tests will be operated by different teams. A feature developed by Team A may be tested by Team B, or C, etc.
