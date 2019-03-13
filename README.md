@@ -7,7 +7,7 @@ This repository contains the notes I have taken during my meetups. My notes are 
 ## How to contribute?
 
 Even though this repository is personal, you can report mistakes and propose enhancements so that the notes become richer, available to more minds, etc.
-If you are a meetup enthousiast, do not hesitate to contact me so that we can add each other in our READMEs!
+If you are a meetup enthusiast, do not hesitate to contact me so that we can add each other in our READMEs!
 
 ## License
 
