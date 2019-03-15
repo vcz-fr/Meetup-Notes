@@ -27,7 +27,7 @@ By [Nicolas Perussel](https://twitter.com/mamoot64), PHP Architect @ ekino
 Defensive programming can be seen as a collection of practices that will solidify your code in order to prevent future breakage by other developers.
 It is mostly used when High Availability or security are top priorities but can be applied any time and for any language.
 
-- Nevet trust user input: check everything that enters your application. Verify the input types, existence, coherence;
+- Never trust user input: check everything that enters your application. Verify the input types, existence, coherence;
 - Never trust developers: even yourself. No developer can create bug-free code and some will find convoluted solutions to add features or fix them;
 - Always write SOLID code: ask yourself the right questions whenever you develop;
   - Single Responsibility: each class should have one responsibility;
@@ -35,7 +35,7 @@ It is mostly used when High Availability or security are top priorities but can 
   - Liskov substitution: replaceability;
   - Interface segregation: Client-specific over General-purpose;
   - Dependency inversion: depend upon abstractions.
-- Unit tests: always write them. Test your tests with [Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing)
+- Unit tests: a must have. Test your tests with [Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing)
 - Inject dependencies via the constructor parameters, not via setters to guarantee the presence of the dependency in the subsequent code;
 - Attributes should be private and provided with an initialization value;
 - Use objects instead of scalar types to have more context;
@@ -46,7 +46,7 @@ It is mostly used when High Availability or security are top priorities but can 
 In other words, create a class that will wrap the former one.
 - Avoid optional parameters;
 - Create a NullObject to replace the `null` keyword.
-This will drive down your usage of null and futher avoid using scalar types;
+This will drive down your usage of null and further avoid using scalar types;
 - Block magic methods whenever possible: In PHP, `__clone` can invalidate the singleton pattern and `__sleep` and `__wakeup` can become very costly;
 - Avoid traits: they reduce the context and control over the code;
 - KISS: Keep It Simple and Stupid
