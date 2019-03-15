@@ -1,7 +1,7 @@
 # CI and QA with Angular
 By [Emmanuel Demey](https://twitter.com/EmmanuelDemey), Developer Advocate @ Zenika
 
-The ideas of this meetup can be applied to other front technologies as well as the problematics are shared.
+The ideas of this meetup can be applied to other front technologies as these problematics are shared.
 
 ## Starting a project
 
@@ -26,13 +26,13 @@ Also, it is important to note that Jest only supports CommonJS modules.
 Use and abuse [TSLint](https://palantir.github.io/tslint/). You can specify, enable and disable its rules with `tslint.json`.
 Furthermore, the rules specific to Angular will use your `angular.json`.
 
-[Prettier](https://prettier.io/) will avoid most of your formatting issues by generating a internal representation of your code and rewriting it consistently afterwards.
+[Prettier](https://prettier.io/) will avoid most of your formatting issues by generating an internal representation of your code and rewriting it consistently afterwards.
 Prettier can be configured with `prettier.rc`.
 To display a list of files that do not comply with the linting standards, you can run `prettier -l **/*.ts`.
 
 ## Git hooks
 
-Instead of relying on the CI to check the correctness of your changes, you can add a precommit hook with [Husky](https://github.com/typicode/husky).
+Instead of relying on the CI to check the correctness of your changes, you can add a pre-commit hook with [Husky](https://github.com/typicode/husky).
 With some configuration in `package.json`, you should be able to run your linter locally right before the commit happens.
 
 ## Schematics
