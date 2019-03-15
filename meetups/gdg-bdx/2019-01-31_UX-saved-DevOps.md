@@ -22,12 +22,12 @@ The first objectives were the following:
 - Redefine what the DevOps team should and should not handle;
 - Enhance the communication.
 
-For that, the UX decided to use the [Speed Boat](http://www.agile-ux.com/2011/10/17/a-speed-boat-or-nothing/) with a handful of members of the developers, DevOps and Operational teams. This Agile exercise is intended for retrospectives, which is kind of the case here, considering this is a lingering issue. We can see the Speed Boat as a simple motor boat with anchors:
-- Your destination is your ideal, the situation you would like to reach;
+For that, the UX decided to use the [Speed Boat](http://www.agile-ux.com/2011/10/17/a-speed-boat-or-nothing/) with a handful of developers, DevOps and operationals. This Agile exercise is intended for retrospectives, which is kind of the case here, considering this is a lingering issue. We can see the Speed Boat as a simple motor boat with anchors:
+- The destination represents your ideal, the situation you would like to reach;
 - The motor is the set of elements that are helping you reaching the destination;
 - The deployed anchors are the obstacles that slow you down.
 
-Once the Speed Boat is layed down, we can clearly identify what is wrong, remedy most of the anchors and reinforce the motor. This exercise is easy to setup but the format is such that you will not get a lot of feedbacks. Nevertheless, you might retrieve interesting insights out of it.
+Once the Speed Boat is laid down, we can clearly identify what is wrong, remedy most of the anchors and reinforce the motor. This exercise is easy to setup but the format is such that you will not get a lot of feedback. Nevertheless, you might retrieve interesting insights out of it.
 
 ### Part Two: Roadmap Board
 
@@ -38,7 +38,7 @@ After having eased the communication between teams, the second set of objectives
 
 The DevOps were clearly in need of time and the developers relied on the DevOps team so this part needed multiple tools: one to align the teams and another to identify the root cause of the issues. Enter the Roadmap Board and the [Five Whys](https://en.wikipedia.org/wiki/5_Whys).
 
-The Roadmap Board is simply a meta Kanban board, nothing fancy. With this board, every team knows about the interdependencies of each task. This may cause unexpected side effects like noticing that a large subset of these dependencies point to a specific team. That is why it is useful to pair this exercise with the "Five Whys".
+The Roadmap Board is simply a meta Kanban board, nothing fancy. With this board, every team knows about the interdependencies of each task. This may cause unexpected side effects like noticing that a large subset of these dependencies points to an unexpected and unforeseen issue. That is why it is useful to pair this exercise with the "Five Whys".
 
 Frustration can drive teammates crazy. That is why it is necessary to detect and bring solutions or ideas in order to drive down frustration. The principle of the "Five Whys" is quite easy: you start from a point of frustration and simply ask yourself why it happened. Here is an example:
 0. The developers cannot test anything on the test environments!
@@ -52,7 +52,7 @@ In this case, we went from an issue that concerned the DevOps team to an issue t
 
 ### Path Three: Six Thinking Hats
 
-UX is also about extracting needs and developing user engagement. Sometimes, when the situation is too complex, it is preferable to take it apart and analyze it thoroughly, under multiple angles. There is an exercise for that called the "Six Thinking Hats". It requires a complex problematic, an open team and from sixty to ninety minutes.
+UX is also about extracting needs and developing user engagement. Sometimes, when the situation is too complex, it is preferable to take it apart and analyze it thoroughly, under multiple angles. There is an exercise for that called the "Six Thinking Hats". It requires an ambitious objective, an open team and from sixty to ninety minutes.
 
 The six hats each have their own color and meaning:
 - White: Neutrality, facts, statistics and **no** feelings;
@@ -62,15 +62,15 @@ The six hats each have their own color and meaning:
 - Yellow: Optimism, hopes, dreams, opportunities;
 - Blue: Organization, thinking process, rigorousness, solution.
 
-The resulting debates are very constructive but the strict rules need a strong arbitration to avoid losing track. Many, many ideas and visions are exposed during this exercise but in the end, there must be someone or some group that makes the final decision.
+The resulting debates are very constructive though the strict rules need a strong arbitration to avoid losing track. Many, many ideas and visions are exposed during this exercise but in the end, there must be someone or some group that makes the final decision.
 
-Sometimes, a decision may require some thinking but not a "Six Tinking Hats" level process. If you often need to ask yourself "What would X do?", then Personas might be what you are looking for. A Persona is a fictional profile representing a target audience. This profile can be used to extract the reaction of a member of that target audience through the history of the profile. Personas are often your end users, the ones that use applications. How would you transpose this concept to the ones developing them? Two devs may use the same technologies but in clearly different ways and with different goals in mind with different sets of skills and interests. In other words, devs are very sparse.
+Sometimes, a decision may require some thinking but not a "Six Tinking Hats" level process. If you often need to ask yourself "What would X do?", then Personas might be what you are looking for. A Persona is a fictional profile representing a target audience. This profile can be used to extract the reaction of a member of that target audience through the history of the profile. Personas are often your end users, the ones that use applications. How would you transpose this concept to the ones developing them? Two developers may use the same technologies in a different fashion and with different goals in mind with different sets of skills and interests. In other words, developers are very sparse.
 
 1. Analyze the profiles around you: frontend, backend, CTO, support;
 2. Analyze their ideas and thoughts: interest in DevOps, no interest, intent to participate;
 3. Adapt the categories of a classic Persona sheet to developers: experience, influences, added value.
 
-Personas are a good way to put yourself in someone else's shoes but adapting a Persona is very difficult. Not only that, it is also hard to think like another kind of technical profile, projecting oneself in another field. Personas are almost always a UX thing and never really stuck with developers, which might explain some degree of resistance.
+Personas are a good way to put yourself in someone else's shoes even though adapting a Persona is very difficult. Not only that, it is also hard to think like another kind of technical profile, projecting oneself in another field. Personas are almost always a UX thing and never really stuck with developers, which might explain some degree of resistance.
 
 ## Finally
 
