@@ -2,6 +2,8 @@
 By [Estelle Landry](https://twitter.com/estelandry), Product Owner and UX Designer @ Elium  
 By [François Teychené](https://twitter.com/fteychene), Cloud developer @ Saagie
 
+[Video \[FR\]](https://www.youtube.com/watch?v=zXz2ZrL2yTM)
+
 Good read, if you are interested in DevOps: [https://devops.com/](https://devops.com/). Articles, webinars, and more.
 
 ## Introduction
