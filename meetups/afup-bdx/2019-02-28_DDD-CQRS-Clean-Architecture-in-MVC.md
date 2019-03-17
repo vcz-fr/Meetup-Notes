@@ -38,3 +38,22 @@ How would you validate errors in such an architecture?
 
 Never let your data storage solution handle identifiers. Generate your own unique IDs to avoid surprises such as scraping and people who will update the URLs manually. If you store data from an external service, generate an internal ID to hide your implementation. A Command Bus can help your application centralizing writes for performance or logging reasons. In Computer Science, it is commonly accepted that a component should prepare its data as soon as possible but write at the last minute.
 
+## How to proceed?
+
+If you never worked with Clean Architecture, DDD and CQRS, you might feel lost at the sight of the amount of notions to integrate to your habits. In any case, start simple: design your domains and think about your tests as soon as possible. Spend time with your clients to fully understand their needs and get as many examples as you can, you will need them later.
+
+Thanks to the work done with the client, you should be able to define the boundaries of the business logic and the domain entities. You also have enough material to write some tests! Thanks to the examples provided by your client, you should be able to implement tests that validate your features and avoid regressions, thus providing a quick feedback loop to the developers.
+
+As for your entities, avoid tricks that are not provided by the language you are using such as annotations for PHP. Contextualize errors and throw exceptions whenever they happen and avoid digging too deep into persistence as each entity might not need its own database table. You also might not need some getters and setters so you might as well not generate them.
+
+DDD and ORMs are not really compatible. That is even more true with CQRS. For your database to be interchangeable, you might have to abandon using an ORM at all and use the Command and Query patterns. Commands allow you to represent more complex business logic through the means of Command Handlers. A Command Handler is an object that will handle a command if and only if it supports it. You can send commands to a Command Bus, which will choose the right Command Handler for your Command. As for Queries, they should only be used for searches and counts. Searches should be done by the mean of filters and specifications.
+
+The Specification Pattern can be seen as a way to represent business rules in a generic and reusable fashion. The usual strategy is to use a DSL that acts as an SQL replacement. For PHP, [K-Phoen/rulerz](https://github.com/K-Phoen/rulerz) is a good candidate.
+
+## Closing words
+
+Use Dependency injection whenever you can to ease the testing process. As for configuration, the relevance of it being declarable outside of your code is debatable.
+
+Even with DDD in, the end of CRUD is not near at all. CRUD is good for very simple resources and could be connected to simple administration interfaces or APIs. 
+
+Aggregates are collections of entities of the same type. When designing RESTful APIs, you can use Aggregates to validate the query at every step and navigate through the resources. You could fetch the address from a specific user with a query like `GET /users/123/addresses`.
