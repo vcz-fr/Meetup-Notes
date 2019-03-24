@@ -2,7 +2,7 @@
 By [Julien Vitte](https://twitter.com/pitchart), Lead Web Developer @ InsideGroup, [Slides](https://pitchart.github.io/ddd-cqrs-mvc/)
 
 ## Context
-The desired end product is an Enterprise Resource Planning solution for an agency, tailor-made that enables business collaboration, protected with a layer of configurable access policies. Guarantees the control and unicity of the company data, eases access to information, availability, data coherence. The solution must be able to evolve long terme and allow the frequent and fast delivery of high-value features.
+The desired end product is an Enterprise Resource Planning solution for an agency, tailor-made that enables business collaboration, protected with a layer of configurable access policies. Guarantees the control and unicity of the company data, eases access to information, availability, data coherence. The solution must be able to evolve long term and allow the frequent and fast delivery of high-value features.
 
 ## The theory
 ### Clean Architecture
@@ -10,9 +10,9 @@ The desired end product is an Enterprise Resource Planning solution for an agenc
 
 Applied to this project, the Clean Architecture would simplify testing and reduce the development feedback loop to speed up feature development and future changes and migrations. In a domain where change is in every mind, reducing the impact of evolutions by making the code independent is a necessary step.
 
-Some ground rules apply to create a Clean code: The external layers can only exchange with the internal ones and all the data formats must be normalized at every step before ever reaching the business logic. Your domain code must be pristine, isolated enough so that is can be reused and only include that domain entities and rules.
+Some ground rules apply to create a Clean code: The external layers can only exchange with the internal ones and all the data formats must be normalized at every step before ever reaching the business logic. Your domain code must be pristine, isolated enough so that it can be reused and only include that domain entities and rules.
 
-Your application must become a list of use cases and orchestrate data from and to your domains. Infrastructure-wise, each layer must know the data formats it manipulates at every step. You might have to create your own persistance layer based on a query builder at most or plain SQL. The organization of the source directory is semantic; the subdirectory names are no longer those offered by your framework or language of choice. You can introduce sense and sanity in your code without actually writing a single line of it!
+Your application must become a list of use cases and orchestrate data from and to your domains. Infrastructure-wise, each layer must know the data formats it manipulates at every step. You might have to create your own persistence layer based on a query builder at most or plain SQL. The organization of the source directory is semantic; the subdirectory names are no longer those offered by your framework or language of choice. You can introduce sense and sanity in your code without actually writing a single line of it!
 
 Note that you must stay as far away as possible from framework additions. For instance, in PHP, you should not use annotations since they are not supported by the language and lock your code with the technology that enables them. Be similarly cautious with libraries and frameworks.
 
@@ -21,10 +21,10 @@ Note that you must stay as far away as possible from framework additions. For in
 
 Semantically speaking, CRUD can limit your team. CRUD is an acronym for "Create, Read, Update, Delete" and represents a normalised way to consume and update resources. While this way might work for generic resources such as orders and users, it falls apart when dealing with complex entities such as Employees. In the real world, employees retire, change position, leave. Sometimes, CRUD does not suffice to represent the complexity of your domain and might even introduce issues when designing your business logic. Maintenance and evolutions will not profit from CRUD either; you might need to update a large chunk of your application if your domain entities are designed like generic resources.
 
-If the need arises, you can adapt your data storage solution to your application. This might come in handy if you know that it can be difficult to make your application work on any database or file storage type. Moreover, databases are among the most difficult third parties to abstract away.
+If the need arises, you can adapt your data storage solution to your application. This might come in handy if you know that it can be difficult to make your application work with any database or file storage type. Moreover, databases are among the most difficult third parties to abstract away.
 
 ### CQ\[R\]S: Command Query \[Responsibility\] Separation
-A Query generates a Read-only, immutable result, like a `SELECT` in SQL. A Command is a mutator, is Write-only, like `INSERT`, `UPDATE` and `DELETE` statements in SQL. Command never return data! The R in CQRS implies a distinct separation between your queries and your commands. The separation is subject to debates and can be partial. Nevertheless, the CQRS approach particularly fits complex domains and out of control business rules.
+A Query generates a Read-only, immutable result, like a `SELECT` in SQL. A Command is a mutator, it is Write-only, like `INSERT`, `UPDATE` and `DELETE` statements in SQL. Commands never return data! The R in CQRS implies a distinct separation between your queries and your commands. The separation is subject to debate. Nevertheless, the CQRS approach is particularly fitting complex domains and out of control business rules.
 
 Rather than using an ORM, it is possible to rely on a Query to use your database better. Doctrine tends to send unoptimlized SQL queries by default and can induce bad habits such as fetching unused fields to suit multiple business rules at once. You can also rely on Views and the power of NoSQL for search queries. The Clean Architecture and DDD should not make your solution more difficult to maintain.
 
@@ -52,7 +52,7 @@ The Specification Pattern can be seen as a way to represent business rules in a 
 
 ## Closing words
 
-Use Dependency injection whenever you can to ease the testing process. As for configuration, the relevance of it being declarable outside of your code is debatable.
+Use Dependency injection whenever you can to ease the testing process. Also, the relevance of configuration being declarable outside of your code is debatable.
 
 Even with DDD in, the end of CRUD is not near at all. CRUD is good for very simple resources and could be connected to simple administration interfaces or APIs. 
 
