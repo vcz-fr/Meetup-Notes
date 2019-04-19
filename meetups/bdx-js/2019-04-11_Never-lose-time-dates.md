@@ -29,11 +29,15 @@ The rotations of the Earth have an influence on GMT's definition. The GMT adjust
 
 **"Local" time:** Context can help defining dates. For instance, if someone asks to set a meeting every Monday at three in the afternoon, Summer time should not have any impact on the meeting time, which will still be set at three after a change. Unfortunately, time zone offset changes and leap seconds can make creating future events very difficult. An usual way to avoid such issues is to set the actual time of the events very close to the moment they happen. How close can make up for your user experience, though.
 
-Each of these representations brings different informations and are more or less relevant depending on your situation.
+Each of these representations brings different informations and are more or less relevant depending on the context.
 
-## Timezones and Offsets
+## Time zones and Offsets
 
-[...]
+A time zone is a geopolitical zone that observes uniform changes of their notion of time. In other words, Summer and Winter time apply at the same moment everywhere in a same time zone. It is impossible to deduce a time zone offset from a time zone and vice-versa: a time zone can have different offset throughout its history and even throughout a year and a time zone offset can apply to multiple time zones.
+
+Time zone offsets vary from -12:00 to +14:00. This means that there are locations in the world where a time zone change can lead to a full day skip. This symbolic line is called the [International Date Line](https://www.timeanddate.com/time/dateline.html).
+
+In order to track the time zone offset linked to each time zone, systems use Time zone databases. These databases contain an exhaustive list of the time zone offset changes for each time zone and track the latest changes. Changes happen very often, at the rate of roughly ten per year. Being up to date with these databases can be very crucial for critical systems. There are two main providers for such databases : Microsoft and the [IANA](https://www.iana.org/time-zones). The IAIA Time zone database repository is [publicly available](https://github.com/eggert/tz).
 
 ## Summer time and other traps
 
