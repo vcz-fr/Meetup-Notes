@@ -39,6 +39,12 @@ Time zone offsets vary from -12:00 to +14:00. This means that there are location
 
 In order to track the time zone offset linked to each time zone, systems use Time zone databases. These databases contain an exhaustive list of the time zone offset changes for each time zone and track the latest changes. Changes happen very often, at the rate of roughly ten per year. Being up to date with these databases can be very crucial for critical systems. There are two main providers for such databases : Microsoft and the [IANA](https://www.iana.org/time-zones). The IAIA Time zone database repository is [publicly available](https://github.com/eggert/tz).
 
+Java natively ships with the new Time zone databases with each new JDK and proposes a tool to update them: the [TZUpdater](https://www.oracle.com/technetwork/java/javase/downloads/tzupdater-download-513681.html). As for JavaScript, you will have to handle them manually or with a [specialized package](https://www.npmjs.com/package/geo-tz).
+
+Time zone databases are very geopolitical and change on a regular basis and sometimes unpredictably. For instance, since 2012 DSTs or Dailight Saving Times are suspended in Morocco during the Ramadan. This makes date and time projections in the future very difficult.
+
+In a few years, a new rule might be added for France with the end of DST. Therefore, if you ever need to store a date, also store the origin time zone of the user that generated it.
+
 ## Summer time and other traps
 
 [...]
