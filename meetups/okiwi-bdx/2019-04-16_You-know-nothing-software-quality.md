@@ -16,15 +16,29 @@ Unfortunately, today, few are the tools and metrics that could make Software arc
 ## Tests
 ### General recommendations
 
-[...]
+Carefully follow the [Test Pyramid](https://testpyramid.com/): start with a large base of relevant Unit tests, then a smaller count of Integration tests and optionally a sufficient number of End-to-End tests. Unit tests are fast and cheap so you should have as much as you can. If your Integration or End-to-End tests fail, add new underlying tests so that you will detect the error faster next time.
+
+Statistically speaking, the number of tests and the number of bugs are correlated negatively. That is, the more the code is tested, the fewer the bugs.
+
+It is common practice using code coverage to identify code sections that have not been tested. This is not a bad thing if and only if your tests are relevant! To help with that, TDD is recommended. Not only it will strenghten your code, TDD also reduces the feedback loop, failing faster and allowing you to spend more time focused on your code.
+
+Well-made tests lead to less refactoring, frustrating development experience, attention loss, time lost understanding legacy code, etc.
 
 ### Mutation testing
 
-[...]
+From the initial source code and test code, generate mutations by changing one part of the code. A mutant can have one less block, one operator change, a condition swap, etc. Run the same tests on each mutant: if at least one fails, the mutant is considered "killed". If one mutant survives then the mutation has not been detected, which means that the tests are not strong enough to capture behavioral changes.
+
+In JavaScript, you can use [Stryker](https://stryker-mutator.io/) to run Mutation tests. It is very difficult to configure but works very well. An Awesome list for Mutation testing is available at [theofidry/awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing)
+
+Beware: Mutation testing is **very** expensive. The number of mutations to test increases with the size of your code. Since your tests also increase over time, that means that Mutation testing time increases quadratically at best. It is recommended using this technique occasionally, on critical code and during a Continuous Integration pipeline.
 
 ## Code
 
 ### Clean Code
+
+You never need to comment everything as long as your code is clear.
+
+> Good read: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), by Robert C. Martin.
 
 [...]
 
