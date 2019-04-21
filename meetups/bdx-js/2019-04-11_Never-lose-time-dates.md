@@ -47,8 +47,24 @@ In a few years, a new rule might be added for France with the end of DST. Theref
 
 ## Summer time and other traps
 
-[...]
+When the time zone offset changes for Summer time, one hour is added between 2:00 AM and 3:00 AM. Because of this, no date exists between 2:00 AM and 3:00 AM and the implementation is left to the language, framework or system in place. Always check how your system handles Summer time if your applications may manipulate dates aroud these periods.
+
+For Winter time, it goes the same: one hour is removed at 3:00 AM and the time frame between 2:00 AM and 3:00 AM is replayed a second time. A UTC date may point to two different times during this situation and the implementation is left to the system. Some technologies choose one of the options while others generate an exception.
+
+A good practice would be to never schedule any job between 2:00 AM and 3:00 AM to avoid them running inconsistently.
+
+DST does not always always shift of one hour. In Lord Howe Island, Australia, DST only shifts half an hour. As seen in the previous section, there can be more than two shifts per year.
+
+Leap years do not happen every four years; if the year can be divided by 100, the year is non leap unless the year can be divided by 400. 2000 was a leap year, 2100 will not be.
+
+The 29th of December 2011, the Samoa Islands decided to cross the [International Date Line](https://www.timeanddate.com/time/dateline.html). Because of that full day skip, the 30th of December 2011 does not exist in the Samoa Islands!
+
+The implementation of the Date object in JavaScript is chaotic and inconsistent across browsers. Dates before Epoch are broken, month IDs start at 0 and Time zones and intenationalization are not supported. It is generally recommended to use a library such as Moment or dayjs
 
 ## Recommendations
 
-[...]
+* Set your infrastructure dates to UTC: <code>sudo timedatectl set-timezone UTC</code> in Linux, for instance;
+* Always explitly define intervals, even if they just cover one day;
+* Store your Datetime as UTC along with the Time zone;
+* Even when you just need to store the time, store the Time zone;
+* Avoid LocalDateTime objects which eliminates the Time zone information.
