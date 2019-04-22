@@ -56,12 +56,36 @@ To keep technical debt in check, you can opt for code reviews as they diffuse co
 
 Always try to add functional **and** technical value to your software. This may be difficult in some companies: managers often see the end result but not the investment to reach it and may not be up to date with software development practices. Development teams are considered like black boxes that produce software. From the outside, the following indicators are available: Time, Cost and Scope. Each of these indicators has an influence on the product quality.
 
-[...]
+> Good read: [Monkey User: Tech Debt](https://www.monkeyuser.com/2018/tech-debt/)
+
+Technical debt can become a real blocker for companies; it can slow down development to a crawl and developers that do something about it are slower, may have no impact on the code base and may even get scolded because they contribute less functional value. In contrast, defining objectives based on metrics can be very dangerous as [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) formulated _"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes."_
+
+Also dangerous is over-quality: always choosing the rewrite route does not always lead to better results. Even though your developers will always use the trending technologies, this leads to hazardous bets on the future of the rewritten applications and may not solve the issues laying around.
 
 ## Practices
 
-[...]
+Introducing software quality practices may produce positive side effects including costs and brand image risk reduction, increased value for potential customers and for HR. If your company is known for producing great software, talented individuals will be attracted.
+
+Software Quality is not just limited to SonarQube as much as Agile is not limited to Jira and DevOps to Docker. All of these are philosophies that go beyond some tool. Moreover, tools and best practices evolve and get better over time. Only culture can be a sign of knowledge.
+
+Some practices induce organizational debt which may also affect production: how change is conducted, communication, offshore teams, team turnover, remote, team heterogeneity.
+
+Software Craftsmanship is starting to take flight in 2019 and we might start to see parallels with Agile soon: events, best practices. This philosophy is still on its premises and applied heterogeneously.
 
 ## Questions and Answers session
 
-[...]
+### What to do when customers rely on a specific tool and fail to see the bigger picture?
+
+The good thing is that they may have started digging in the right direction. As an expert, guide them and explain why it is difficult moving forward in your given situation.
+
+### What about Software rot?
+
+Technical debt is not always linked to conscious decisions and shortcuts. It is in reality a mix between decisions and lack of experience.
+
+### How to sell Technical debt?
+
+Technical debt is contracted during development and refunded by its resolution. If debt starts to become uncontrollable, start rejecting new features. Some development teams add debt refunding to their backlogs and prioritize it with their other tasks.
+
+### Including C-Levels to Software Quality
+
+Present solid studies, preferably executive summaries. Talk about the notion of debt, its relationship with bugs, experience feedbacks from other companies. Show examples of companies that applied and did not apply Software Craftsmanship practices. If this does not lead to anything, let it go.
