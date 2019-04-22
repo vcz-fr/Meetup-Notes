@@ -40,9 +40,21 @@ You never need to comment everything as long as your code is clear.
 
 > Good read: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), by Robert C. Martin.
 
-[...]
+The number of code smells is negatively correlated to the number of bugs in your application. There are tools that can detect such issues such as your favorite linter or [SonarQube](https://www.sonarqube.org/). Used correctly, their reports help technical teams identifying issues and solving errors before they happen, reducing maintenance costs for companies and future developers.
+
+> Good read: [The Developer coefficient (study)](https://stripe.com/reports/developer-coefficient-2018), by Stripe and Harris Poll, September 2018.
+
+### Bugs and debt
+
+Sometimes, the correction of an issue may necessitate the correction of another issue if not more. Living with legacy code may have a disastrous impact on developers such as skill or motivation loss. This situation can be apparented to the [Boiling Frog metaphor](https://en.wikipedia.org/wiki/Boiling_frog).
+
+It is normal for technical debt to evolve with time. Sometimes, you have to make concessions for some piece of software to be ready sooner. Keep in mind that, much like an actual credit, technical debt must be repaid as soon as possible and must be kept in check in order not to grow exponentially over time.
+
+To keep technical debt in check, you can opt for code reviews as they diffuse code ownership and ideas and help detecting issues sooner. To detect issues even sooner, you may want to try Pair programming or even Mob Programming. A golden rule during these exercises is Egoless Programming: developers are not their code and the only source of authority is knowledge, not power.
 
 ### Adding value
+
+Always try to add functional **and** technical value to your software. This may be difficult in some companies: managers often see the end result but not the investment to reach it and may not be up to date with software development practices. Development teams are considered like black boxes that produce software. From the outside, the following indicators are available: Time, Cost and Scope. Each of these indicators has an influence on the product quality.
 
 [...]
 
