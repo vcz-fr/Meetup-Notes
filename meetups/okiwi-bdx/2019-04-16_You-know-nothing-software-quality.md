@@ -93,4 +93,4 @@ Present solid studies, preferably executive summaries. Talk about the notion of 
 
 ## Notes
 
-Special thanks to the host [Arthur Magne](https://twitter.com/ArthurMagne) who provided the slides after the presentation.
+Special thanks to the speaker [Arthur Magne](https://twitter.com/ArthurMagne) who provided the slides after the presentation.
