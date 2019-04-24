@@ -1,5 +1,6 @@
 # You know nothing about Software Quality, Jon Snow, CTO at WhiteWalkerConsulting
-By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze
+By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze  
+[Slides (PDF)](https://github.com/vcz-fr/meetup-notes/blob/master/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](https://github.com/vcz-fr/meetup-notes/blob/master/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx)
 
 ## On Software Craftsmanship
 
@@ -89,3 +90,7 @@ Technical debt is contracted during development and refunded by its resolution. 
 ### Including C-Levels to Software Quality
 
 Present solid studies, preferably executive summaries. Talk about the notion of debt, its relationship with bugs, experience feedbacks from other companies. Show examples of companies that applied and did not apply Software Craftsmanship practices. If this does not lead to anything, let it go.
+
+## Notes
+
+Special thanks to the host [Arthur Magne](https://twitter.com/ArthurMagne) who provided the slides after the presentation.
