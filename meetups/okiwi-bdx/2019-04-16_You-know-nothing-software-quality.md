@@ -1,10 +1,10 @@
 # You know nothing about Software Quality, Jon Snow, CTO at WhiteWalkerConsulting
 By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze  
-[Slides (PDF)](https://github.com/vcz-fr/meetup-notes/blob/master/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](https://github.com/vcz-fr/meetup-notes/blob/master/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx)
+[Slides (PDF)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx)
 
 ## On Software Craftsmanship
 
-Software Craftsmanship is a philosophy set on the principle of continuous improvement applied to IT. Refer to the [Software Craftsmanship introduction](https://github.com/vcz-fr/meetup-notes/blob/master/meetups/okiwi-bdx/2019-03-19_Software-craftsmanship-back-to-basics.md) for an in-depth explanation of that philosophy.
+Software Craftsmanship is a philosophy set on the principle of continuous improvement applied to IT. Refer to the [Software Craftsmanship introduction](/meetups/okiwi-bdx/2019-03-19_Software-craftsmanship-back-to-basics.md) for an in-depth explanation of that philosophy.
 
 One of the key concepts of Software Craftsmanship is the community. This concept evolved drastically for developers during the last ten years with a shift from mostly online sharing to Groups such as [Okiwi](https://okiwi.org/), Meetups, Brown Bag Lunches, Coding Dojos and entire conferences like the [BDX I/O](https://www.bdx.io/).
 
