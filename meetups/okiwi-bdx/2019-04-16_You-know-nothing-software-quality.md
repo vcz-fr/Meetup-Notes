@@ -17,9 +17,9 @@ By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze
     + [Adding value](#adding-value)
   * [Practices](#practices)
   * [Questions and Answers session](#questions-and-answers-session)
-    + [What to do when customers rely on a specific tool and fail to see the bigger picture?](#what-to-do-when-customers-rely-on-a-specific-tool-and-fail-to-see-the-bigger-picture-)
-    + [What about Software rot?](#what-about-software-rot-)
-    + [How to sell Technical debt?](#how-to-sell-technical-debt-)
+    + [What to do when customers rely on a specific tool and fail to see the bigger picture?](#what-to-do-when-customers-rely-on-a-specific-tool-and-fail-to-see-the-bigger-picture)
+    + [What about Software rot?](#what-about-software-rot)
+    + [How to sell Technical debt?](#how-to-sell-technical-debt)
     + [Including C-Levels to Software Quality](#including-c-levels-to-software-quality)
   * [Notes](#notes)
 

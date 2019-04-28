@@ -13,9 +13,9 @@ Good read, if you are interested in DevOps: [https://devops.com/](https://devops
 
   * [Introduction](#introduction)
   * [The Mix](#the-mix)
-    + [Part One: Speed Boat](#part-one--speed-boat)
-    + [Part Two: Roadmap Board](#part-two--roadmap-board)
-    + [Path Three: Six Thinking Hats](#path-three--six-thinking-hats)
+    + [Part One: Speed Boat](#part-one-speed-boat)
+    + [Part Two: Roadmap Board](#part-two-roadmap-board)
+    + [Path Three: Six Thinking Hats](#path-three-six-thinking-hats)
   * [Finally](#finally)
 
 ## Introduction

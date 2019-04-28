@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-  * [Good or Bad repository?](#good-or-bad-repository-)
+  * [Good or Bad repository?](#good-or-bad-repository)
   * [Defensive programming](#defensive-programming-1)
 
 ## Good or Bad repository?

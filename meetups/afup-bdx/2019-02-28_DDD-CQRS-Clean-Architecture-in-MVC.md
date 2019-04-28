@@ -9,8 +9,8 @@ By [Julien Vitte](https://twitter.com/pitchart), Lead Web Developer @ InsideGrou
   * [The theory](#the-theory)
     + [Clean Architecture](#clean-architecture)
     + [Domain-Driven Design](#domain-driven-design)
-    + [CQ\[R\]S: Command Query \[Responsibility\] Separation](#cq--r--s--command-query---responsibility---separation)
-  * [How to proceed?](#how-to-proceed-)
+    + [CQ\[R\]S: Command Query \[Responsibility\] Separation](#cqrs-command-query-responsibility-separation)
+  * [How to proceed?](#how-to-proceed)
   * [Closing words](#closing-words)
 
 ## Context
