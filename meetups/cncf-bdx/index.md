@@ -2,4 +2,6 @@
 meetup_index: true
 ---
 
-# Cloud Navite Computing Foundation - Bordeaux
+# Cloud Native Computing Foundation - Bordeaux
+
+{% include meetup-list.md %}
