@@ -15,4 +15,5 @@ The contents of this repository are placed under the CC BY-ND 4.0 licence.
 
 ## Acknowledgements
 
-Licence Markdown: https://github.com/idleberg/Creative-Commons-Markdown
+License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown
+](https://github.com/idleberg/Creative-Commons-Markdown)

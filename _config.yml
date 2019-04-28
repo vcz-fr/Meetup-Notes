@@ -1,0 +1,3 @@
+url: "https://meetups.vcz.fr"
+plugins:
+  - jekyll-sitemap
