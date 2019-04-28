@@ -1,5 +1,5 @@
 # Feedback: Developing an application with Angular
-🕑 *Estimated reading time:* **5mn**
+🕑 *Estimated reading time:* **6mn**
 
 Frédéric Hémery, Lead Developer Angular Expert Team @ Betclic  
 [Thomas Marcelin](https://twitter.com/ThomasMarcelin), Developer @ Betclic  

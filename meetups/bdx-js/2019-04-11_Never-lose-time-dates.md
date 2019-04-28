@@ -1,5 +1,5 @@
 # Back to Basics: Never lose time with Dates again
-🕑 *Estimated reading time:* **5mn**
+🕑 *Estimated reading time:* **8mn**
 
 By [Frédéric Camblor](https://twitter.com/fcamblor), Web developer @ 4SH  
 [Slides](https://www.slideshare.net/fcamblor/back-to-basics-ne-perdez-plus-votre-temps-avec-les-dates-bordeaux-js-edition) - [Bibliography](https://github.com/fcamblor/talk-back-to-basics-datetime/blob/master/src/notes/sources.adoc)
