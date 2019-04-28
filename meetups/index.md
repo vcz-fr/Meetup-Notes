@@ -1,6 +1,8 @@
 ---
 ---
 
-{% for page in site.pages %}
-<div>[{{page.url}}]({{page.url}})</div>
+{{page.dir}} [{{page.title}}]({{page.url}})
+
+{% for node in site.html_pages %}
+[{{node.title}}]({{node.url}})  
 {% endfor %}
