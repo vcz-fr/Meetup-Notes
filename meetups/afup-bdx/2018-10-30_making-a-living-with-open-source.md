@@ -1,4 +1,6 @@
 # Making a living with Open Source
+🕑 *Estimated reading time:* **1mn**
+
 By [Mickaël Andrieu](https://twitter.com/mickael_andrieu), Freelance - [Website](http://www.mickael-andrieu.com/)
 
 By definition, a company that develops open source software can hardly sell it, since its sources are available and could very well be packaged by any third party or final user. Nevertheless, there are countless alternatives:

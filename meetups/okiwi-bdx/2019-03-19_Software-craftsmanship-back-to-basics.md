@@ -1,9 +1,19 @@
 # Software craftsmanship: Back to basics
+🕑 *Estimated reading time:* **6mn**
+
 By [Frédéric Faure](https://twitter.com/ffaure32/), @ Zenika - [Slides](https://www.slideshare.net/ffaure32/okiwi-software-craftsmanship-back-to-basics)
 
 Some good reads:
 - [The pragmatic Programmer](https://www.oreilly.com/library/view/the-pragmatic-programmer/020161622X/), by Andrew Hunt and David Thomas
 - [The Software Craftsman](https://www.oreilly.com/library/view/the-software-craftsman/9780134052625/), by Sandro Mancuso
+
+## Table of Contents
+
+  * [Agile and Software Craftsmanship](#agile-and-software-craftsmanship)
+  * [The practices of Software craftsmanship](#the-practices-of-software-craftsmanship)
+  * [Out of scope ideas](#out-of-scope-ideas)
+    + [Acronyms](#acronyms)
+    + [Attitude](#attitude)
 
 ## Agile and Software Craftsmanship
 

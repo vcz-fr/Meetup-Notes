@@ -1,4 +1,6 @@
 # WebAuthn: Authentication made easy
+🕑 *Estimated reading time:* **5mn**
+
 By [Benoît Giraudou](https://twitter.com/joowgir), Developer @ Zenika, [Personal website](http://joow.github.io/)  
 [Demo and slides](https://github.com/joow/webauthn-demo)
 

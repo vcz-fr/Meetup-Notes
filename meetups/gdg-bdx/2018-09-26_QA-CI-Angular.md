@@ -1,7 +1,19 @@
 # CI and QA with Angular
+🕑 *Estimated reading time:* **2mn**
+
 By [Emmanuel Demey](https://twitter.com/EmmanuelDemey), Developer Advocate @ Zenika
 
 The ideas of this meetup can be applied to other front technologies as these problematics are shared.
+
+## Table of Contents
+
+  * [Starting a project](#starting-a-project)
+  * [Testing](#testing)
+  * [Linting](#linting)
+  * [Git hooks](#git-hooks)
+  * [Schematics](#schematics)
+  * [Code coverage](#code-coverage)
+  * [Testing the CI](#testing-the-ci)
 
 ## Starting a project
 

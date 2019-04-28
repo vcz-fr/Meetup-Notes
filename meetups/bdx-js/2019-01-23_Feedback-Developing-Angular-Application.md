@@ -1,7 +1,17 @@
 # Feedback: Developing an application with Angular
+🕑 *Estimated reading time:* **5mn**
+
 Frédéric Hémery, Lead Developer Angular Expert Team @ Betclic  
 [Thomas Marcelin](https://twitter.com/ThomasMarcelin), Developer @ Betclic  
 [Slides](https://www.slideshare.net/secret/4VGmpAjjnDoIVq) - [Video \[FR\]](https://www.youtube.com/watch?v=eMDGNNy77Y8)
+
+## Table of Contents
+
+  * [A bit of context](#a-bit-of-context)
+  * [The architecture](#the-architecture)
+  * [Quality Assurance](#quality-assurance)
+  * [Organization](#organization)
+  * [The future](#the-future)
 
 ## A bit of context
 The Betclic application is a multi-regulation one. The Betclic group operates on four separate domains: Sports, Casino, Poker and Turf. It supports 1 million users, of which 80% are coming from mobile platforms with a peak load of 4500 concurrent users. Their market is strongly regulated and the group has six different brands to deploy with country-specific regulations.

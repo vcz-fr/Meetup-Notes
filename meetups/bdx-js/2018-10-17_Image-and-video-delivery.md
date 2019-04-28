@@ -1,5 +1,15 @@
 # Delivering  beautiful and fast images and video
+🕑 *Estimated reading time:* **4mn**
+
 By [Doug Sillars](https://twitter.com/dougsillars), Freelance Developer - [Personal website](https://dougsillars.com/)
+
+## Table of Contents
+
+  * [Introduction](#introduction)
+  * [Working with images](#working-with-images)
+  * [Working with videos](#working-with-videos)
+
+## Introduction
 
 In the domain of Web performance, the best free developer tools you can find in the market are [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [WebPageTest.org](https://www.webpagetest.org/).
 

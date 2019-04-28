@@ -1,8 +1,18 @@
 # Back to Basics: Never lose time with Dates again
+🕑 *Estimated reading time:* **5mn**
+
 By [Frédéric Camblor](https://twitter.com/fcamblor), Web developer @ 4SH  
 [Slides](https://www.slideshare.net/fcamblor/back-to-basics-ne-perdez-plus-votre-temps-avec-les-dates-bordeaux-js-edition) - [Bibliography](https://github.com/fcamblor/talk-back-to-basics-datetime/blob/master/src/notes/sources.adoc)
 
 The aim of this presentation is to avoid the classic traps set by time and date handling in software development.
+
+## Table of Contents
+
+  * [History](#history)
+  * [Key concepts](#key-concepts)
+  * [Time zones and Offsets](#time-zones-and-offsets)
+  * [Summer time and other traps](#summer-time-and-other-traps)
+  * [Recommendations](#recommendations)
 
 ## History
 

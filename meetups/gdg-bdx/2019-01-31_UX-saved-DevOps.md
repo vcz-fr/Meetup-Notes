@@ -1,10 +1,22 @@
 # The UX saved my DevOps
+🕑 *Estimated reading time:* **8mn**
+
 By [Estelle Landry](https://twitter.com/estelandry), Product Owner and UX Designer @ Elium  
 By [François Teychené](https://twitter.com/fteychene), Cloud developer @ Saagie
 
 [Video \[FR\]](https://www.youtube.com/watch?v=zXz2ZrL2yTM)
 
 Good read, if you are interested in DevOps: [https://devops.com/](https://devops.com/). Articles, webinars, and more.
+
+
+## Table of Contents
+
+  * [Introduction](#introduction)
+  * [The Mix](#the-mix)
+    + [Part One: Speed Boat](#part-one--speed-boat)
+    + [Part Two: Roadmap Board](#part-two--roadmap-board)
+    + [Path Three: Six Thinking Hats](#path-three--six-thinking-hats)
+  * [Finally](#finally)
 
 ## Introduction
 Strong open source believers and contributors and organizers in the spirit, Estelle and François represent an excellent mix of skills that can help companies progress on the engineering front. This meetup will be an experience feedback as much as a presentation of some UX techniques applied to organizations.

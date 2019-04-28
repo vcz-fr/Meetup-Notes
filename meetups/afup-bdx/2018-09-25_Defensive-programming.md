@@ -1,4 +1,10 @@
 # Defensive programming
+🕑 *Estimated reading time:* **4mn**
+
+## Table of Contents
+
+  * [Good or Bad repository?](#good-or-bad-repository-)
+  * [Defensive programming](#defensive-programming-1)
 
 ## Good or Bad repository?
 By [Arnaud Langlade](https://twitter.com/arnolanglade), Developer @ Akeneo / Sylios  

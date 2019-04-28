@@ -1,12 +1,24 @@
 # DDD, CQ(R)S and Clean Architecture in an MVC framework
+🕑 *Estimated reading time:* **8mn**
+
 By [Julien Vitte](https://twitter.com/pitchart), Lead Web Developer @ InsideGroup, [Slides](https://pitchart.github.io/ddd-cqrs-mvc/)
+
+## Table of Contents
+
+  * [Context](#context)
+  * [The theory](#the-theory)
+    + [Clean Architecture](#clean-architecture)
+    + [Domain-Driven Design](#domain-driven-design)
+    + [CQ\[R\]S: Command Query \[Responsibility\] Separation](#cq--r--s--command-query---responsibility---separation)
+  * [How to proceed?](#how-to-proceed-)
+  * [Closing words](#closing-words)
 
 ## Context
 The desired end product is an Enterprise Resource Planning solution for an agency, tailor-made that enables business collaboration, protected with a layer of configurable access policies. Guarantees the control and unicity of the company data, eases access to information, availability, data coherence. The solution must be able to evolve long term and allow the frequent and fast delivery of high-value features.
 
 ## The theory
 ### Clean Architecture
-[Interesting read](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+Interesting read: [*The Clean Architecture* from *The Clean Code Blog*](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 Applied to this project, the Clean Architecture would simplify testing and reduce the development feedback loop to speed up feature development and future changes and migrations. In a domain where change is in every mind, reducing the impact of evolutions by making the code independent is a necessary step.
 

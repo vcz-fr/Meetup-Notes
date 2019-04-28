@@ -1,6 +1,27 @@
 # You know nothing about Software Quality, Jon Snow, CTO at WhiteWalkerConsulting
+🕑 *Estimated reading time:* **9mn**
+
 By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze  
 [Slides (PDF)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx)
+
+## Table of Contents
+
+  * [On Software Craftsmanship](#on-software-craftsmanship)
+  * [Architecture](#architecture)
+  * [Tests](#tests)
+    + [General recommendations](#general-recommendations)
+    + [Mutation testing](#mutation-testing)
+  * [Code](#code)
+    + [Clean Code](#clean-code)
+    + [Bugs and debt](#bugs-and-debt)
+    + [Adding value](#adding-value)
+  * [Practices](#practices)
+  * [Questions and Answers session](#questions-and-answers-session)
+    + [What to do when customers rely on a specific tool and fail to see the bigger picture?](#what-to-do-when-customers-rely-on-a-specific-tool-and-fail-to-see-the-bigger-picture-)
+    + [What about Software rot?](#what-about-software-rot-)
+    + [How to sell Technical debt?](#how-to-sell-technical-debt-)
+    + [Including C-Levels to Software Quality](#including-c-levels-to-software-quality)
+  * [Notes](#notes)
 
 ## On Software Craftsmanship
 

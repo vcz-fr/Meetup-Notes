@@ -17,5 +17,9 @@ The contents of this repository are placed under the CC BY-ND 4.0 licence.
 
 ## Acknowledgements
 
-License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown
+* License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown
 ](https://github.com/idleberg/Creative-Commons-Markdown)
+* ToC generator: [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
+* Word counter (for reading time estimations[^1]): [https://wordcounter.io/](https://wordcounter.io/)
+
+[^1]: The estimated reading time is computed using the number of words of the article divided by a speed of 170 read words per minute, rounded up.
