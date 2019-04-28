@@ -1,8 +1,15 @@
 ---
 ---
 
-{{page.dir}} [{{page.title}}]({{page.url}})
+# Meetups
+
+## List of Meetup groups
 
 {% for node in site.html_pages %}
-[{{node.title}}]({{node.url}})  
+
+    {{node.meetup_index}}  
+
+    {% if node.meetup_index %}
+        [{{node.title}}]({{node.url}})  
+    {% endif %}
 {% endfor %}
