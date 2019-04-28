@@ -2,7 +2,7 @@
 
 # Meetup notes
 
-This repository contains the notes I have taken during my meetups. My notes are not exhaustive and contain sometimes more than what happens during the actual presentations.
+This repository contains the notes I have taken during my meetups. They are not exhaustive and may contain more than what happens during the presentations.
 
 [&gt; Browse the meetup groups](/meetups/)
 
@@ -10,6 +10,11 @@ This repository contains the notes I have taken during my meetups. My notes are 
 
 Even though this repository is personal, you can report mistakes and propose enhancements so that the notes become richer, available to more minds, etc.
 If you are a meetup enthusiast, do not hesitate to contact me so that we can add each other in our READMEs!
+
+## Who am I?
+
+This image links to my personal website:  
+[![Vincenzo Scalzi's logo](/assets/global/images/vcz.png)](https://vcz.fr/)
 
 ## License
 
@@ -19,7 +24,8 @@ The contents of this repository are placed under the CC BY-ND 4.0 licence.
 
 * License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown
 ](https://github.com/idleberg/Creative-Commons-Markdown)
-* ToC generator: [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
-* Word counter (for reading time estimations[^1]): [https://wordcounter.io/](https://wordcounter.io/)
+* ToC generator [^1]: [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
+* Word counter [^2]: [https://wordcounter.io/](https://wordcounter.io/)
 
-[^1]: The estimated reading time is computed using the number of words of the article divided by a speed of 170 read words per minute, rounded up.
+[^1]: If you need to use this generator, keep in mind that it does not handle complex punctuation marks well.  
+[^2]: Used for Reading time estimation. The estimated reading time is computed using the number of words of the article divided by a speed of 170 read words per minute, rounded up.
