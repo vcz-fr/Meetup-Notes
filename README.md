@@ -4,6 +4,8 @@
 
 This repository contains the notes I have taken during my meetups. My notes are not exhaustive and contain sometimes more than what happens during the actual presentations.
 
+[&gt; Browse the meetup groups](/meetups/)
+
 ## How to contribute?
 
 Even though this repository is personal, you can report mistakes and propose enhancements so that the notes become richer, available to more minds, etc.
