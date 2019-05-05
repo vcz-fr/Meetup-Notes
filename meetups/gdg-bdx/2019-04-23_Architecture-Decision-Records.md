@@ -1,5 +1,5 @@
 # Architecture Decision Records
-🕑 *Estimated reading time:* **?mn**
+🕑 *Estimated reading time:* **7mn**
 
 ## Table of Contents
 
