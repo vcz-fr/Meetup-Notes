@@ -32,13 +32,52 @@ By [Olivier Revial](https://twitter.com/pommeDouze), Lead developer @ Stack Labs
 
 ### Different shades of documentation
 
-[...]
+Different types of documentations can be organized by context from study to work and level of practice from theoretical to practical. The following diagram gives an example for each category:
+
+```
+                                ▲
+                                |
+                            Practical
+                                |
+            Tutorial            |            How-to
+   Teaching approach, basics    |   Practical, step-by-step
+                                |
+                                |
+◄-- Study --------------------- + --------------------- Work --►
+                                |                           Context
+                                |
+          Explanations          |           Reference
+      Answers to the Whys       |   Exhaustive documentation
+                                |
+                           Theoretical
+                                |
+                                ▼
+                            Approach
+```
+
+On this scale, Architecture Decision Records would be close to explanations. They document the technical choices, their context and their reasons.
+
+In a Waterfall project, the functional and technical documentations are decided and written before starting the development phase. Choices and decisions being already documented, ADRs would not be useful in those cases. Thus, ADRs are more fit to Agile projects.
+
+Not only that but the evolution from monolithic to micro-services architectures induce an increase in the number and complexity of the decisions to make on a regular basis and the importance of contextualizing and backing every decision.
+
+One of the most common forms of documentation is to have a Wiki, an architecture diagram for your project and explain the choices and evolutions made to reach the diagram. This approach works but forces the application to always be aligned with the documentation. An alignment issue can cause the loss of part of the project history, which can lead to the ossification to a part of the project. This, in turn, can either lead to increased debt if the development team is afraid to break things or actual breakeage in case they should not have removed code that looked unused.
+
+What if, instead of documenting the whole application at every instant, we focused on a history that has the power to render part of an application obsolete and safely detacheable? That is where ADRs come into play.
 
 ### Architecture Decision Records
 
 #### Rules and composition
 
-[...]
+There are many formats of ADRs and the best one fits to your team and systems. Nevertheless, an Architect Decision Record will always contain the following set of information:
+- ID: Like an RFC ID. ADR-001, for instance;
+- Title: As relevant as possible;
+- Date: Locates the decision on the project timeline;
+- Status: The current status of the decision;
+- Deciders: The people that participated in the decisions and that can give context in the future;
+- Context: An explanation that led to the decision, the issue to solve;
+- Decision: A description of the reached consensus, the choice, the reasons, the alternatives that have been analyzed and why they have not been chosen instead;
+- Consequences: What the ADR caused on many perspectives. Maintenance, development, human, economic, etc. Anticipation of the decision byproduct.
 
 #### Lifecycle
 
