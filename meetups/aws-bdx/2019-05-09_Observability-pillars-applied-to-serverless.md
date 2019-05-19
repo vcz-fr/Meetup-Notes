@@ -1,11 +1,21 @@
 # Observability pillars applied to serverless
-🕑 *Estimated reading time:* **?mn**
+🕑 *Estimated reading time:* **7mn**
 
 By [Steve Houël](https://twitter.com/SteveHouel), Cloud architect & Global Tech Leader @ Ippon Technologies - [Personal website 1](http://www.steve-houel.fr/),  [Personal website 2](https://www.steve-houel.com/)  
 By [Pierre Baillet](https://twitter.com/octplane) SRE, R&D engineer @ Datadog - [Personal website](https://oct.zoy.org/)  
 [Slides](https://www.slideshare.net/SteveHouel/observability-pillars-applied-to-serverless)
 
 ## Table of Contents
+
+  * [A history of Observability](#a-history-of-observability)
+  * [Pillars and challenges](#pillars-and-challenges)
+  * [Datadog with AWS](#datadog-with-aws)
+  * [Questions and Answers session](#questions-and-answers-session)
+    + [How to effectively version enpoints in serverless?](#how-to-effectively-version-enpoints-in-serverless)
+    + [How to implement new connectors with Datadog?](#how-to-implement-new-connectors-with-datadog)
+    + [How is Datadog monitoring its services?](#how-is-datadog-monitoring-its-services)
+    + [How to anonymize the logs sent by lambdas?](#how-to-anonymize-the-logs-sent-by-lambdas)
+    + [How to trace lambdas calls?](#how-to-trace-lambdas-calls)
 
 ## A history of Observability
 
