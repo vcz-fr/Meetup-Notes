@@ -2,7 +2,7 @@
 🕑 *Estimated reading time:* **9mn**
 
 By [Arthur Magne](https://twitter.com/ArthurMagne), CTO and Co-founder @ ProMyze  
-[Slides (PDF)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx)
+[Slides (PDF)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx) - [Video \[FR\]](https://www.youtube.com/watch?v=oWjU6HupA4k)
 
 ## Table of Contents
 
