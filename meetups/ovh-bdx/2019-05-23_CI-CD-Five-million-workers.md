@@ -1,7 +1,25 @@
 # CI/CD & HPC
-🕑 *Estimated reading time:* **?mn**
+🕑 *Estimated reading time:* **11mn**
 
 ## Table of Contents
+
+  * [CI/CD: Five million workers](#cicd-five-million-workers)
+    + [History](#history)
+    + [Needs](#needs)
+    + [Continuous Delivery Service](#continuous-delivery-service)
+  * [Speed up your application delivery workflow](#speed-up-your-application-delivery-workflow)
+    + [DevOps](#devops)
+  * [The Pikcio way](#the-pikcio-way)
+    + [Results](#results)
+  * [Is HPC cloudable?](#is-hpc-cloudable)
+    + [Presentation](#presentation)
+    + [Cloudability](#cloudability)
+      - [Frequent use, high load](#frequent-use-high-load)
+      - [Infrequent use, low load](#infrequent-use-low-load)
+    + [Offers](#offers)
+    + [Questions and Answers session](#questions-and-answers-session)
+      - [What about FPGAs? Are they relevant today?](#what-about-fpgas-are-they-relevant-today)
+      - [How do you handle vulnerabilities that affect the CPU?](#how-do-you-handle-vulnerabilities-that-affect-the-cpu)
 
 ## CI/CD: Five million workers
 By [Benjamin Coenen](https://twitter.com/BnJ25), Software developer @ OVH  
@@ -72,3 +90,44 @@ This work made it possible to increase the autonomy of the developers. Today, ze
 
 ## Is HPC cloudable?
 By [Benjamin Barthe](https://twitter.com/b4mb0u), HPC expert @ Atos
+
+### Presentation
+
+HPC, which stands for High Performance Computing, aims to solve problems requiring large amounts of computational resources like meteorology, materials science, finances, nuclear science, etc.
+
+Even though computations on a cluster went from one microprocessor to thousands of nodes over the years, the code running on these units never knows that its computations are scattered across multiple machines thanks to technologies like low-latency networks and protocols (InfiniBand, Omni-Path Architecture, Bull eXascale Interconnect, which can reach microsecond latencies!). Similarly, to spend more time computing, it necessary to sometimes store billions of files, at times reaching an Exabyte (1000 Petabytes or 1M Terabytes) and operate on them at speeds ranging from 100GBps to 1TBps.
+
+Currently, the most powerful supercomputer on Earth listed on [Top500](https://www.top500.org/), the reference in the domain, is Summit, which totals 143PFlops, consumes just shy of 10MW, stores 250PB of files which transit at speeds of 2.5TBps!
+
+### Cloudability
+
+We will concentrate on two situations: a demanding system, high load and frequently used and a non-demanding system with moderate to low load, infrequently used.
+
+#### Frequent use, high load
+
+The cloud would give you an edge on scalability and hardware evolution. Having your system on premise, on the other hand, would help with networking, storage, hardware lifecycle and keeping costs down.
+
+#### Infrequent use, low load
+
+In case your system is used infrequently, having an on premise solution would not bring much if not additional overhead for the administration of the jobs you wish to execute and maintenance. Here, the cloud could appear to be a better solution. Do not take this for granted since each computing need has its own solution. Plus, you could mix cloud **and** on premise!
+
+For instance, you can have an on premise cluster, prioritize your jobs based on a queuing system and send high priority jobs to the cloud if the queue does not allow them to run soon enough. You could use the cloud as a burst solution.
+
+### Offers
+
+Offers for HPC workloads are plentiful today even though each cloud vendor has not joined yet.
+
+**Azure:** A convincing solution with 1k+ nodes, multi PB storage, InfiniBand and partenered with Cray since May 17th of 2019.  
+**AWS:** You can run HPC workloads with their EC2s loaded with their custom EFA kernel. The latency is way more acceptable than Ethernet at around 15 microseconds but still far from the State of the Art.  
+**OVH:** There is a chassis dedicated to Big Data and currently, it is very expensive. You do get free hardware upgrades and administration but it still does not justify the cost.  
+**Bull:** The solution can be on premise or on demand, offers an online interface with preinstalled applications and remote 3D model visualization. Bull is a Google Cloud partner and of DDN.
+
+### Questions and Answers session
+
+#### What about FPGAs? Are they relevant today?
+
+Short answer: it depends. For very specialized tasks, they might be relevant. For others, you could be porting your computations to GPUs with CUDA and the most out of them first. This is also how the main supercomputers in Top500 work today: they mostly rely on GPUs.
+
+#### How do you handle vulnerabilities that affect the CPU?
+
+You start by assessing if it impacts your datacenter. Depending on the context, applying a patch will not change anything as the vulnerability cannot be exploited. This is the case if your datacenter is offline or does not rely on code that may expose the vulnerability. In the opposite case, you will need to accept that the execution of jobs will be slower and hope for the best.
