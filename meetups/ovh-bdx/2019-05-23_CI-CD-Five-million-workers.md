@@ -6,9 +6,7 @@
 ## CI/CD: Five million workers
 By [Benjamin Coenen](https://twitter.com/BnJ25), Software developer @ OVH  
 By [Richard Le Terrier](https://twitter.com/richardlte), Software engineer @ OVH - [Personal website](https://richardlt.github.io/)  
-By [Steven Guiheux](https://twitter.com/sguiheux), Software developer @ OVH  
-
-This is an experience feedback of the development and scaling of the CDS product at OVH.
+By [Steven Guiheux](https://twitter.com/sguiheux), Software developer @ OVH
 
 ### History
 
@@ -48,7 +46,29 @@ CDS handled a total of 5.7 million workers in 2018. This represented 12k contain
 **Reusability:** In a classic CI/CD solution, jobs and stages can be reused but not entire workflows. With CDS, this is not the case thanks to the workflow templates. A template change can be globally applied its related children workflows!
 
 ## Speed up your application delivery workflow
-By Thomas Boni, Solutions Architect @ pikcio.com
+By Thomas Boni, Solutions Architect @ Pikcio
+
+### DevOps
+
+What is DevOps? It is a philosophy that aims to update solutions more frequently. This is crucial, especially in startup environments, where fast iterations and ideas are key. There are several kinds of optimizations we can achieve by working with DevOps: deployment speed, meaningful feedback, operational optimization and uptime.
+
+As such, a classic CI/CD workflow should resemble the following: Code compilation > Unit testing > Packaging > Integration and High-level testing > Deployment. The deployment may or may not be automated, depending on the team preference.
+
+## The Pikcio way
+
+Pikcio being a privacy-conscious company, they went with GitLab because it is open source, can be self-hosted and is works towards privacy. On top of that, it eases organization, DevOps workflows, documentation and publication.
+
+Some guidelines have been set while using the tool: achieve fast productivity and autonomy, define a development and production workflow early on, publish more than just code on your repositories. Write tests, infrastructure as code, documentation.
+
+Code-level tests avoid regressions and bugs. Packaging induce portability, reproducibility, quick deployment. Integration and High-level testing reproduces use cases, API calls, CLI commands. You can automate all of this and more with tools like [Newman](https://github.com/postmanlabs/newman) and [Venom](https://github.com/ovh/venom). Write documentation, build and publish it from GitLab with [Slate](https://github.com/lord/slate) or [Sphinx](http://www.sphinx-doc.org/en/stable/).
+
+For your deployments, orchestrrate your applications and the infrastructure running them. Always think about managed solutions, they are often more cost-efficient, scalable and resilient than running everything by yourself. Also use templates for your deployments: with [Helm](https://helm.sh/), you can redeploy services on Kubernetes without reinventing the wheel every time. You can also learn how to use hooks to automate database migrations and pre-post deployment tasks.
+
+Always deploy specific versions, immutably, with automated solutions. Your repositories should contain everything needed for the application to work, build, be deployed and properly configured.
+
+### Results
+
+This work made it possible to increase the autonomy of the developers. Today, zero-downtime deployments are a possibility and new recruits can start being productive on day 2! Among the challenges to come: bring more tests in, solve runner scalability issues and work on a canary release system.
 
 ## Is HPC cloudable?
 By [Benjamin Barthe](https://twitter.com/b4mb0u), HPC expert @ Atos
