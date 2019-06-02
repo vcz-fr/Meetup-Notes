@@ -31,6 +31,22 @@ Years of development brought many languages and technologies into the stack: Go,
 
 No tool available at the time could match all of these needs. OVH chose to develop its own. Enters **CDS**.
 
+### Continuous Delivery Service
+
+[100% open source](https://github.com/ovh/cds), developed in Go and Angular. Derives from the needs of OVH and CI/CD's litterature. It reached the point where CDS currently deploys CDS!
+
+**Flexibility:** Workflows are a set of conditional pipelines that can be executed algorithmically and connected by hooks with Git, Bitbucket, Webhooks, Kafka and more. The conditions can also be applied to stages and jobs. You can execute stages for specific environments, for instance.
+
+All environment variables can be utilized to create conditions, from jobs to entire workflows. You could prevent production deployments if it is the last day of the week or the last hour of the day.
+
+**Scalability:** A "hatchery" has been developed in Go. This component, which needs an API token and access to the API, listens for events and responds by generating workers and environments from the jobs prequisites. Hatcheries are compatible with numerous execution environments: Kubernetes, Local, OpenStack, VSphere and many more.
+
+CDS handled a total of 5.7 million workers in 2018. This represented 12k containers per day or 3k VMs. Currently, it is running more than 3k workflows in approximately 250 projects and has gathered more than 700 users. The project also reached 2k stars on GitHub!
+
+**Autonomy:** You can represent your workflow as a YAML and execute that workflow differently depending on environment variables. The YAML specification keeps a strict compatibility with the options exposed in the interface and vice-versa so that all teams are on the same level, feature-wise.
+
+**Reusability:** In a classic CI/CD solution, jobs and stages can be reused but not entire workflows. With CDS, this is not the case thanks to the workflow templates. A template change can be globally applied its related children workflows!
+
 ## Speed up your application delivery workflow
 By Thomas Boni, Solutions Architect @ pikcio.com
 
