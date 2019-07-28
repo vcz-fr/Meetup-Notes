@@ -30,7 +30,7 @@ By [Steven Guiheux](https://twitter.com/sguiheux), Software developer @ OVH
 
 By the end of 2014, OVH, which was fifteen at the time, rocked large monorepos, monoliths and had increasing needs for CI/CD performance. Its solution at the time was to divide the monoliths into micro-services.
 
-Each time is responsible for the applications it develops and the ecosystem it uses. To build and deploy their applications for instance, some teams were using GitLab while others were using Jenking, deploying via shell scripts or with `git pull`. An effort has been maid to standardize the CI/CD process.
+Each team is responsible for the applications it develops and the ecosystem it uses. To build and deploy their applications for instance, some teams were using GitLab while others were using Jenkins, deploying via shell scripts or with `git pull`. An effort has been maid to standardize the CI/CD process.
 
 By March of 2015, the first results are in: PRs are requested by email, the integration with Atlassian creates it in Stash, starts a CI/CD with Bamboo. This set of tools being integration into the Atlassian Suite, this allowed for a fast integration with tight access controls. This setup was good, with separate environments and automated changelogs but it was limited in terms of scalability, team autonomy, API completeness, had no CLI and no isolation between environments!
 
