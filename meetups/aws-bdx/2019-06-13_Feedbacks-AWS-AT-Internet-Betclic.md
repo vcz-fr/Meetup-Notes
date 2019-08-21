@@ -12,7 +12,7 @@
 
 ## AT Internet feedback
 By Samuel Renassia, Solution Architect @ Gekko  
-By [David Boyrie](https://twitter.com/dboyrie), Responsable R&D @ AT Internet
+By [David Boyrie](https://twitter.com/dboyrie), Responsable R&D @ AT Internet  
 By Fedor Myznikov, Lead Developer @ AT Internet
 
 ### Offerings
