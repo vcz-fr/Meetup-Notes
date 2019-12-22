@@ -27,5 +27,10 @@ The contents of this repository are placed under the CC BY-ND 4.0 licence.
 * ToC generator [^1]: [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
 * Word counter [^2]: [https://wordcounter.io/](https://wordcounter.io/)
 
+## Some stats
+
+This site has collected **34 meetups** providing **211 minutes** of readable content.  
+The first collected meetup is [Defensive programming](https://meetups.vcz.fr/meetups/afup-bdx/2018-09-25_Defensive-programming) and dates back to the **25th of September of 2019**.
+
 [^1]: If you need to use this generator, keep in mind that it does not handle complex punctuation marks well.  
 [^2]: Used for Reading time estimation. The estimated reading time is computed using the number of words of the article divided by a speed of 170 read words per minute, rounded up.
