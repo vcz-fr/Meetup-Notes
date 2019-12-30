@@ -4,7 +4,7 @@
 By [Guillaume Laforge](https://twitter.com/glaforge), Developer advocate @ Google  
 [Video \[FR\]](https://www.youtube.com/watch?v=DRf7-dmhNHA) - [Slides](https://speakerdeck.com/glaforge/implementing-webhooks-not-as-trivial-as-it-may-seem) - [Blog post](https://glaforge.appspot.com/article/implementing-webhooks-not-as-trivial-as-it-may-seem)
 
-## Table of Contents  
+## Table of Contents
   * [Webhooks](#webhooks)
   * [Implementation](#implementation)
   * [Security considerations](#security-considerations)
