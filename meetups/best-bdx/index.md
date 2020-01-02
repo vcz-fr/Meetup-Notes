@@ -2,6 +2,6 @@
 meetup_index: true
 ---
 
-# Bordeaux Engineers Share & Talk
+# Bordeaux Engineers Share and Talk
 
 {% include meetup-list.md %}
