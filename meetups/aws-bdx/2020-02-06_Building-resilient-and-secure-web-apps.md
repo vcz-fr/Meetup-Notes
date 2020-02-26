@@ -62,7 +62,7 @@ router (second @), DNS server (third @), Reserved for future use (fourth @) and 
 CIDR between `/16` and `/28`, meaning it will contain at least 16 addresses of which five will be reserved. Do not
 forget to enable automatic assignation of IPv4 addresses on your public Subnets.
 
-From there on, it is possible to start creating components, starting with an off-the-shelf database. [Amazon Relational Database Service](https://aws.amazon.com/fr/rds/)
+From there on, it is possible to start creating components, starting with an off-the-shelf database. [Amazon Relational Database Service](https://aws.amazon.com/rds/)
 or _Amazon RDS_ is among the slowest to provision so it is recommended starting with this one when hosting classic web
 applications on AWS. For demonstrations and small projects, there is a Free Tier that cancels most of the charges
 incurred with the usage of the service. In every case, a database should never be publicly accessible. It is to be only
@@ -74,27 +74,43 @@ enhance the read performance of your database.
 
 ## Starting instances
 
-Security Groups are an essential security feature that may be understood like stateful firewalls which deny traffic by
-default. Security groups can be associated with most resources within VPCs including Amazon Elastic Compute Cloud
-instances, or _Amazon EC2_ instances, which are basically rented computing capacity. Security Groups rules may allow
-inbound and outbound requests from specific IPv4 and IPv6 CIDRs, other Security Groups or even itself. For instance, it
-is possible to require the database Security Group to allow connections on its default port from the instance Security
-Group. That would cause only these instances to be able to connect to the database, only to the authorized port.
+[Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) are an essential security
+feature that may be understood like stateful firewalls which deny traffic by default. Security groups can be associated
+with most resources within VPCs including Amazon Elastic Compute Cloud instances, or _Amazon EC2_ instances, which are
+basically rented computing capacity. Security Groups rules may allow inbound and outbound requests from specific IPv4
+and IPv6 CIDRs, other Security Groups or even itself. For instance, it is possible to require the database Security
+Group to allow connections on its default port from the instance Security Group. That would cause only these instances
+to be able to connect to the database, only to the authorized port.
 
-An Amazon Machine Image or _AMI_ generally contains the OS that would boot on an EC2. It is possible to pre-package
-additional software and application code in an AMI so that the instance would setup way faster, which will help with
-scaling. For elements that require configuration such as retrieving the latest version of a service or code, it possible
-to pass scripts that would execute during the instance setup steps. This script is referred to as User-data.
+An [Amazon Machine Image](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) or _AMI_ generally contains the
+OS that would boot on an EC2. It is possible to pre-package additional software and application code in an AMI so that
+the instance would setup way faster, which will help with scaling. For elements that require configuration such as
+retrieving the latest version of a service or code, it possible to pass scripts that would execute during the instance
+setup steps. This script is referred to as User-data.
 
-An EC2 may also use AWS services on its own. For instance, it could listen on a queue provided by Amazon Simple Queue
-Service or _Amazon SQS_. By default, this is impossible unless the instance is authorized to do so using an Identity and
-Access Management Role or _IAM Role_. IAM Roles are the way to go to allow services to use AWS features like humans
-would do. Human users can also assume those roles in very specific cases, however IAM users may do the trick on simpler
-accounts.
+An EC2 may also use AWS services on its own. For instance, it could listen on a queue provided by [Amazon Simple Queue
+Service](https://aws.amazon.com/sqs/) or _Amazon SQS_. By default, this is impossible unless the instance is authorized
+to do so using an Identity and Access Management Role or _IAM Role_. IAM Roles are the way to go to allow services to
+use AWS features like humans would do. Human users can also assume those roles in very specific cases, however IAM users
+may do the trick on simpler accounts.
 
 ## New architecture
 
 ### Load Balancers
+
+In order to be truly resilient, each resource must be made available in at least two AZs so that if one fails, the
+application is still up and running. It is thus required to have a system that will detect outages and redirect the
+traffic to solve availability and elasticity issues.
+
+On AWS, there are three types of [Load Balancers](https://aws.amazon.com/elasticloadbalancing/):
+- Classic, now deprecated but very basic and simple to use;
+- Network, a very performant low level (Layer 3) load balancer;
+- Application, a new generation, performant load balancer that comes with lots of added features.
+
+Load Balancers require endpoints to load balance traffic onto. Those may be instances that may be created manually or
+with the help of a properly configured Autoscaling Group. Load balancers are attached to Target groups, which represent
+traffic targets. Each target of a defined Target group receives, under normal circumstances, the same kind of traffic.
+It is possible to define those normal circumstances using custom health checks adapted to your service.
 
 ### On scaling
 
