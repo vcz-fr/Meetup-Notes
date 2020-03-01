@@ -15,7 +15,7 @@ By [Horacio Gonzalez](https://twitter.com/lostinbrittany), Dev Rel @ OVH
 
 WASM is a binary portable format serving as a compilation target for many other languages. The result of the compilation can be used inside the VMs of modern web browsers and Node.JS. It is fair to say that WASM is a spiritual successor to Java applets, Flash and Silverlight but open source, standard and natively supported by web browsers! In terms of performance, WASM is fast, memory-safe, efficient, sandboxed, debuggable and is part of the Web toolkit. Again, WASM does not replace the web stack, rather it **completes** it.
 
-Many companies and aplications use WASM today, including Figma, Autocad, Qt, Unreal Engine, Unity, Google Earth, etc. The common denominator between all of these is that they have strong requirements in terms of performance and memory usage.
+Many companies and applications use WASM today, including Figma, Autocad, Qt, Unreal Engine, Unity, Google Earth, etc. The common denominator between all of these is that they have strong requirements in terms of performance and memory usage.
 
 ## History
 
@@ -39,7 +39,7 @@ WebAssembly typically relies on a stack memory and its functions always return w
 
 The technology is fit for workloads requiring computations that cannot be efficiently done in plain JavaScript. At the same time, this implies that something as simple as a Hello world cannot be as easily achieved in WASM, as it will require to compile and ship the standard libraries of the origin language, which is all but efficient.
 
-Manually wrapping WebAssembly scripts with JavaScript requires some asynchronous operations: fetching it, retrieving an ArrayBuffer from the response, instantiating a WebAssembly interface from the ArrayBuffer and retrieving and exposing the exported WebAssembly functions to the rest of your JavaScript. For instance, you could do Canvas manipulation by creating a canvas tag in your HTML, defining a memory space equivalent to the number of pixels to render, create a WASM function that will use this space to generate images and feed the result back to the cavas. The whole process is heavy, though it will be simplified soon by lightening the required wrapper boilerplate and opening access to browser APIs.
+Manually wrapping WebAssembly scripts with JavaScript requires some asynchronous operations: fetching it, retrieving an ArrayBuffer from the response, instantiating a WebAssembly interface from the ArrayBuffer and retrieving and exposing the exported WebAssembly functions to the rest of your JavaScript. For instance, you could do Canvas manipulation by creating a canvas tag in your HTML, defining a memory space equivalent to the number of pixels to render, create a WASM function that will use this space to generate images and feed the result back to the canvas. The whole process is heavy, though it will be simplified soon by lightening the required wrapper boilerplate and opening access to browser APIs.
 
 ## Cool stuff
 
@@ -57,7 +57,7 @@ Although the present form of WebAssembly is very promising, its future shines br
 Native modules have an additional compilation step. With WebAssembly, there is no need for additional compilation as it is natively supported by the browser.
 
 1. Can you compile JavaScript to WebAssembly?  
-You certainly can but the performance will not be better. It is more relevant to rewrite your code using AssmblyScript, for instance.
+You certainly can but the performance will not be better. It is more relevant to rewrite your code using AssemblyScript, for instance.
 
 1. What about security?  
 Unfortunately, this technology opens new attack vectors that can use the performance of WebAssembly such as cryptominers or simply keyloggers. A bug in the original language or dependencies may be transferred to WebAssembly.
