@@ -1,7 +1,8 @@
 # DDD, CQ(R)S and Clean Architecture in an MVC framework
 🕑 *Estimated reading time:* **8mn**
 
-By [Julien Vitte](https://twitter.com/pitchart), Lead Web Developer @ InsideGroup, [Slides](https://pitchart.github.io/ddd-cqrs-mvc/)
+By [Julien Vitte](https://twitter.com/pitchart), Lead Web Developer @ Inside Group  
+[Slides](https://pitchart.github.io/ddd-cqrs-mvc/)
 
 ## Table of Contents
 

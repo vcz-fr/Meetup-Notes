@@ -29,7 +29,7 @@ The contents of this repository are placed under the CC BY-ND 4.0 license.
 
 ## Some stats
 
-This site has collected **45 meetups** providing **278 minutes** of readable content.  
+This site has collected **46 meetups** providing **283 minutes** of readable content.  
 The first collected meetup is [Defensive programming](https://meetups.vcz.fr/meetups/afup-bdx/2018-09-25_Defensive-programming) and dates back to the **25th of September of 2018**.
 
 [^1]: If you need to use this generator, keep in mind that it does not handle complex punctuation marks well.  
