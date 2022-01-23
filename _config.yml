@@ -27,19 +27,22 @@ author:
     card: summary
   github: vcz-fr
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  highlighter: rouge
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
 
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
 
 feed:
   posts_limit: 50
+
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

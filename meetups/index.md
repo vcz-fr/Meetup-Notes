@@ -1,12 +1,10 @@
 ---
+layout: page
 ---
-
-# Meetups
 
 ## List of Meetup groups
 
-{% for node in site.html_pages %}
-{% if node.meetup_index %}
-[{{node.title}}]({{node.url}})  
-{% endif %}
+{% assign categories = site.html_pages | where:"type","categories" %}
+{% for node in categories %}
+[{{node.human-name}}](/{{node.collection}})
 {% endfor %}

@@ -1,11 +1,11 @@
-[![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/)
+[![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/){:rel="nofollow"}
 
 # Meetup notes
 
 This repository contains the notes I have taken during my meetups. They are not exhaustive and may contain more than
 what happens during the presentations.
 
-&gt; [Browse the meetup groups](/meetups/)
+> [Browse the meetup groups](/meetups/)
 
 ## How to contribute?
 
@@ -24,15 +24,4 @@ The contents of this repository are placed under the CC BY-ND 4.0 license.
 
 ## Acknowledgements
 
-* License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown)
-* ToC generator [^1]: [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
-* Word counter [^2]: [https://wordcounter.io/](https://wordcounter.io/)
-
-## Some stats
-
-This site has collected **46 meetups** providing **283 minutes** of readable content.  
-The first collected meetup is [Defensive programming](https://meetups.vcz.fr/meetups/afup-bdx/2018-09-25_Defensive-programming)
-and dates back to the **25th of September of 2018**.
-
-[^1]: If you need to use this generator, keep in mind that it does not handle complex punctuation marks well.  
-[^2]: Used for Reading time estimation. The estimated reading time is computed using the number of words of the article divided by a speed of 170 words per minute, rounded up.
+* License Markdown: [https://github.com/idleberg/Creative-Commons-Markdown](https://github.com/idleberg/Creative-Commons-Markdown){:rel="nofollow"}
