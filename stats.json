@@ -19,6 +19,7 @@
   ],
   "stats": {
     "category_count": {{ site.categories | size | jsonify }},
+    "post_count": {{ site.posts | size | jsonify }},
     "word_count": {{ word_count | jsonify }},
     "reading_time_mn": {{ word_count | divided_by: 170.0 | ceil | jsonify }}
   }
