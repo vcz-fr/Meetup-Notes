@@ -10,7 +10,7 @@
         "url": {{ post.url | absolute_url | jsonify }},
         "date": {{ post.date | jsonify }},
         "categories": {{ post.categories | jsonify }},
-        {%- assign this_word_count = post.content | number_of_words | minus: 5 -%}
+        {%- assign this_word_count = post.content | strip_html | number_of_words | minus: 5 -%}
         {%- assign word_count = word_count | plus: this_word_count  -%}
         "word_count": {{ this_word_count | jsonify }},
         "reading_time_mn": {{ this_word_count | divided_by: 170.0 | ceil | jsonify }}
