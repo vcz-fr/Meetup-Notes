@@ -3,12 +3,8 @@ categories: ["meetups/afup-bdx"]
 title: "Index me baby!"
 ---
 
-{% include time.md %}
-
 By Nerea Enrique, PHP Engineer @ ekino  
 [Slides repository](https://github.com/Curryed/search){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Search engines
 

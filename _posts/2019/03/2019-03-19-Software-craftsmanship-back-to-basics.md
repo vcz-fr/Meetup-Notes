@@ -3,11 +3,7 @@ categories: ["meetups/okiwi"]
 title: "Software craftsmanship: Back to basics"
 ---
 
-{% include time.md %}
-
 By [Frédéric Faure](https://twitter.com/ffaure32/){:rel="nofollow"}, @ Zenika - [Slides](https://www.slideshare.net/ffaure32/okiwi-software-craftsmanship-back-to-basics){:rel="nofollow"}
-
-{% include toc.md %}
 
 Some good reads:
 - [The pragmatic Programmer](https://www.oreilly.com/library/view/the-pragmatic-programmer/020161622X/){:rel="nofollow"},

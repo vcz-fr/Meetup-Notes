@@ -3,9 +3,6 @@ categories: ["meetups/aws-bdx"]
 title: "AWS Feedbacks from AT Internet and Betclic"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## AT Internet feedback
 By Samuel Renassia, Solution Architect @ Gekko  
 By [David Boyrie](https://twitter.com/dboyrie){:rel="nofollow"}, Responsable R&D @ AT Internet  

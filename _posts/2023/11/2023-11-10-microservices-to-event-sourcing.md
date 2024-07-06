@@ -3,11 +3,7 @@ categories: ["meetups/bdx-io"]
 title: "From microservices to Event Sourcing"
 ---
 
-{% include time.md %}
-
 By Meidi Airouche, Software & Cloud Architect @ OnePoint  
-
-{% include toc.md %}
 
 ## A story of many features
 

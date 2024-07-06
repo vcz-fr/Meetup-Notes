@@ -3,9 +3,6 @@ categories: ["meetups/gitlab-bdx"]
 title: "NetOps and Hugo with GitLab CI"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## How to become a future-proof network engineer
 
 By Alexandre Azario, Network Engineer @ OVHcloud

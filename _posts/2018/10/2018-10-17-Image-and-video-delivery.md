@@ -3,11 +3,7 @@ categories: ["meetups/bdx-js"]
 title: "Delivering beautiful and fast images and video"
 ---
 
-{% include time.md %}
-
 By [Doug Sillars](https://twitter.com/dougsillars){:rel="nofollow"}, Freelance Developer - [Personal website](https://dougsillars.com/){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Introduction
 

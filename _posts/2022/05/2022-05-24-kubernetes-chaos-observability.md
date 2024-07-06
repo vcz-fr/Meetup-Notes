@@ -3,11 +3,7 @@ categories: ["meetups/sre-france"]
 title: "Kubernetes, Chaos and Observability"
 ---
 
-{% include time.md %}
-
 [Official blog post \[FR\]](https://sre-france.github.io/post/2022-05-24-live-from-bordeaux/){:rel="nofollow"} - [Video \[FR\]](https://www.youtube.com/watch?v=rrnCVoiALj0){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Kubernetes and Chaos Engineering equals Love
 

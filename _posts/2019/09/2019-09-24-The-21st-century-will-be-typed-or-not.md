@@ -3,13 +3,9 @@ categories: ["meetups/okiwi"]
 title: "The XXIst century will be typed... or will it?"
 ---
 
-{% include time.md %}
-
 By [Arnaud Bailly](https://twitter.com/dr_c0d3){:rel="nofollow"}, Developer @ Aleryo  
 [Slides](https://abailly.github.io/slides/xxi-century-shall-be-typed-okiwi.html#/){:rel="nofollow"} - [Code](https://github.com/abailly/xxi-century-typed){:rel="nofollow"} -
 [Video \[FR\]](https://www.youtube.com/watch?v=WQYKQK3MB2g){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Introduction
 It has been a few years now that function programming started taking off, out of its theoretical scope. Combined with

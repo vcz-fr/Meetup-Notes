@@ -3,9 +3,6 @@ categories: ["meetups/ovh-bdx"]
 title: "CI/CD & HPC"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## CI/CD: Five million workers
 
 By [Benjamin Coenen](https://twitter.com/BnJ25){:rel="nofollow"}, Software developer @ OVH  

@@ -3,12 +3,8 @@ categories: ["meetups/gdg-bdx"]
 title: "Building a realtime Progressive Web Application with Firebase"
 ---
 
-{% include time.md %}
-
 By [Mathilde Lemée](https://twitter.com/mathildelemee){:rel="nofollow"}, Co-founder & CTO @ Jolimoi  
 By [Loïc Vaillé](https://twitter.com/hydrog3n){:rel="nofollow"}, Full stack developer @ Jolimoi
-
-{% include toc.md %}
 
 ## On Progressive Web Applications
 

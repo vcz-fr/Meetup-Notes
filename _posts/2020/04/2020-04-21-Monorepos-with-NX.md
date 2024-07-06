@@ -3,12 +3,8 @@ categories: ["meetups/bdx-js"]
 title: "Monorepo and JavaScript: discovering Nx"
 ---
 
-{% include time.md %}
-
 By [Frédéric Hémery](https://twitter.com/FredericHemery){:rel="nofollow"}, Front tech lead @ Betclic  
 [Video \[FR\]](https://www.youtube.com/watch?v=mrlxUNlgJQU){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Introduction
 

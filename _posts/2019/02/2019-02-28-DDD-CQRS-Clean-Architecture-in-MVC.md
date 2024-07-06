@@ -3,12 +3,8 @@ categories: ["meetups/afup-bdx"]
 title: "DDD, CQ(R)S and Clean Architecture in an MVC framework"
 ---
 
-{% include time.md %}
-
 By [Julien Vitte](https://twitter.com/pitchart){:rel="nofollow"}, Lead Web Developer @ Inside Group  
 [Slides](https://pitchart.github.io/ddd-cqrs-mvc/){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Context
 

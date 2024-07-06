@@ -3,12 +3,8 @@ categories: ["meetups/bdx-io"]
 title: "On Cloud sustainability"
 ---
 
-{% include time.md %}
-
 By Mickaël Gaultier, CTO @ Magellan  
 By Marie-Lucie Anfray, Manager @ Daveo  
-
-{% include toc.md %}
 
 ## The Situation
 

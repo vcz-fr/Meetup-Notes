@@ -3,11 +3,7 @@ categories: ["meetups/bdx-js"]
 title: "WebAssembly for developers (web... or not)"
 ---
 
-{% include time.md %}
-
 By [Horacio Gonzalez](https://twitter.com/lostinbrittany){:rel="nofollow"}, Dev Rel @ OVH
-
-{% include toc.md %}
 
 ## Introduction
 

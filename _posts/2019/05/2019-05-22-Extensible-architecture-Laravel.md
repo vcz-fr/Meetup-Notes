@@ -3,9 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "Extensible architecture with Laravel"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Extensible architecture with Laravel
 
 By [Marty Lamoureux](https://twitter.com/martylamoureux){:rel="nofollow"}, CTO & Co-Founder @ DynamicScreen

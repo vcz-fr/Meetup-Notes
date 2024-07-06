@@ -3,13 +3,9 @@ categories: ["meetups/bdx-io"]
 title: "Lazy Loading: Boost your Angular applications"
 ---
 
-{% include time.md %}
-
 By [Damien Riccio](https://twitter.com/damienriccio){:rel="nofollow"}, Developer @ 4SH  
 By [Elian Oriou](https://twitter.com/eoriou){:rel="nofollow"}, Tech Lead @ 4SH  
 [Video \[FR\]](https://www.youtube.com/watch?v=DWZWWeJDwCw){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## A scenario
 

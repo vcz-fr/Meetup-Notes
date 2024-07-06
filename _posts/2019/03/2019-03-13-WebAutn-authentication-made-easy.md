@@ -3,8 +3,6 @@ categories: ["meetups/gdg-bdx"]
 title: "WebAuthn: Authentication made easy"
 ---
 
-{% include time.md %}
-
 By [Benoît Giraudou](https://twitter.com/joowgir){:rel="nofollow"}, Developer @ Zenika, [Personal website](http://joow.github.io/){:rel="nofollow"}  
 [Demo and slides](https://github.com/joow/webauthn-demo){:rel="nofollow"}
 

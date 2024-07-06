@@ -3,11 +3,7 @@ categories: ["meetups/bdx-io"]
 title: "How much resources do I need?"
 ---
 
-{% include time.md %}
-
 By Roman Mazur, Team Lead @ Ubisoft  
-
-{% include toc.md %}
 
 ## Setting the plot
 

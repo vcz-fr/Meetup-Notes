@@ -3,11 +3,7 @@ categories: ["meetups/afup-bdx"]
 title: "A well-prepared Dependency Injection Container"
 ---
 
-{% include time.md %}
-
 By [Nicolas Perussel](https://twitter.com/mamoot64){:rel="nofollow"}, PHP Architect @ ekino
-
-{% include toc.md %}
 
 ## History
 

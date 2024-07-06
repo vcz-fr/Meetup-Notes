@@ -3,13 +3,9 @@ categories: ["meetups/bdx-js"]
 title: "Feedback: Developing an application with Angular"
 ---
 
-{% include time.md %}
-
 Frédéric Hémery, Lead Developer Angular Expert Team @ Betclic  
 [Thomas Marcelin](https://twitter.com/ThomasMarcelin){:rel="nofollow"}, Developer @ Betclic  
 [Slides](https://www.slideshare.net/secret/4VGmpAjjnDoIVq){:rel="nofollow"} - [Video \[FR\]](https://www.youtube.com/watch?v=eMDGNNy77Y8){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## A bit of context
 

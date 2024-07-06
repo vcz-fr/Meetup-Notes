@@ -3,9 +3,6 @@ categories: ["meetups/bdx-js"]
 title: "Backend for Frontend and Redux, explained from scratch"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Backend for Frontend: A tailor-made API
 By Pierre Trollé, Core React developer @ ManoMano  
 [Blog Post](https://blog.octo.com/les-indispensables-dun-projet-frontend-un-backend-for-frontend-une-api-sur-mesure/){:rel="nofollow"}

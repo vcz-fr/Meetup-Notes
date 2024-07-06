@@ -3,14 +3,10 @@ categories: ["meetups/bdx-js"]
 title: "Decoding the Cypress ecosystem"
 ---
 
-{% include time.md %}
-
 By [Nicolas Augereau](https://twitter.com/nicolasaugereau){:rel="nofollow"}, QA Tester and Automation Specialist @
 Younup
 
 > **Notice**: I arrived a few minutes late to this meetup. My notes may not reflect the whole presentation.
-
-{% include toc.md %}
 
 ## Writing tests
 

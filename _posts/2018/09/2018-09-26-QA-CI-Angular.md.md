@@ -3,11 +3,7 @@ categories: ["meetups/gdg-bdx"]
 title: "CI and QA with Angular"
 ---
 
-{% include time.md %}
-
 By [Emmanuel Demey](https://twitter.com/EmmanuelDemey){:rel="nofollow"}, Developer Advocate @ Zenika
-
-{% include toc.md %}
 
 The ideas of this meetup can be applied to other front technologies as these problematics are shared.
 

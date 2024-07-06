@@ -11,6 +11,13 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    <p>
+      {% include time.md %}
+    </p>
+
+    <h2>Table of Contents</h2>
+    {% toc %}
+
     {{ content }}
   </div>
 

@@ -3,9 +3,6 @@ categories: ["meetups/ovh-bdx"]
 title: "On AI Training"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## High Performance Computing for LLM training
 By Hugo Larcher, Machine Learning Infrastructure Engineer @ HuggingFace
 

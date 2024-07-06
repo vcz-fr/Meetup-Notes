@@ -3,11 +3,7 @@ categories: ["meetups/aws-bdx"]
 title: "Building a resilient and secure web application on AWS"
 ---
 
-{% include time.md %}
-
 By [Guillaume Lannebere](https://twitter.com/guillan40){:rel="nofollow"}, IT Technical Architect @ Betclic Group
-
-{% include toc.md %}
 
 ## Example
 

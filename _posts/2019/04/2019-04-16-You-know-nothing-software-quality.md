@@ -3,16 +3,12 @@ categories: ["meetups/okiwi"]
 title: "You know nothing about Software Quality, Jon Snow, CTO at WhiteWalkerConsulting"
 ---
 
-{% include time.md %}
-
 By [Arthur Magne](https://twitter.com/ArthurMagne){:rel="nofollow"}, CTO and Co-founder @ ProMyze  
 [Slides (PDF)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pdf) - [Slides (PPTX)](/assets/slides/2019-04-16_You-know-nothing-software-quality/slides.pptx) -
 [Video \[FR\]](https://www.youtube.com/watch?v=oWjU6HupA4k){:rel="nofollow"}
 
 Special thanks to the speaker [Arthur Magne](https://twitter.com/ArthurMagne){:rel="nofollow"} who provided the slides
 after the presentation.
-
-{% include toc.md %}
 
 ## On Software Craftsmanship
 

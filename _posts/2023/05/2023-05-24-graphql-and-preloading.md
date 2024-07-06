@@ -3,9 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "GraphQL and Preloading"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Native GraphQL in PHP: a journey
 By Antoine Bousquet, Senior Software Engineer @ ManoMano  
 [Slides](https://docs.google.com/presentation/d/1F4L6IhhAOVVeaSsh5PVjYm85OB072KcSoA8BcCbKYIQ/){:rel="nofollow"}

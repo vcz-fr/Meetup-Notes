@@ -3,8 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "Making a living with Open Source"
 ---
 
-{% include time.md %}
-
 By [Mickaël Andrieu](https://twitter.com/mickael_andrieu){:rel="nofollow"}, Freelance - [Website](http://www.mickael-andrieu.com/){:rel="nofollow"}
 
 By definition, a company that develops open source software can hardly sell it, since its sources are available and

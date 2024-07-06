@@ -3,11 +3,7 @@ categories: ["meetups/ippevents"]
 title: "Rethinking app development with DDD and event storming"
 ---
 
-{% include time.md %}
-
 By Merlin Boyer, Fullstack Developer @ Ippon  
-
-{% include toc.md %}
 
 Why do we rethink applications? There are so many reasons: gaining in flexibility, reacting to change, better map
 business with tech, improve Developer eXperience and so on.

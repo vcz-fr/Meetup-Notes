@@ -3,14 +3,10 @@ categories: ["meetups/aws-bdx"]
 title: "Observability pillars applied to serverless"
 ---
 
-{% include time.md %}
-
 By [Steve Houël](https://twitter.com/SteveHouel){:rel="nofollow"}, Cloud architect & Global Tech Leader @ Ippon
 Technologies - [Personal website](https://www.steve-houel.com/){:rel="nofollow"}  
 By [Pierre Baillet](https://twitter.com/octplane){:rel="nofollow"} SRE, R&D engineer @ Datadog - [Personal website](https://oct.zoy.org/){:rel="nofollow"}  
 [Slides](https://www.slideshare.net/SteveHouel/observability-pillars-applied-to-serverless){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## A history of Observability
 

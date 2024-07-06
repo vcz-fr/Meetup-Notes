@@ -3,12 +3,8 @@ categories: ["meetups/afup-bdx"]
 title: "One monolith, multiple microservices"
 ---
 
-{% include time.md %}
-
 By [Julien Vitte](https://twitter.com/pitchart){:rel="nofollow"}, Tech Lead @ Inside Group  
 [Slides](https://pitchart.github.io/modular-monolith-vs-microservices){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Introduction
 

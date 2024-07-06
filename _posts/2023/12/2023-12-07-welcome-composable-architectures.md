@@ -3,11 +3,7 @@ categories: ["meetups/archilocus"]
 title: "Welcome in the era of Composable Architectures"
 ---
 
-{% include time.md %}
-
 By Loic Carbonne, Head of e-commerce tribe @ Theodo  
-
-{% include toc.md %}
 
 Phoneblocks was a groundbreaking initiative that promised to create a mobile phone that would put an end to planned
 obsolescence due to its modularity and upgradeability. If you wanted to improve your camera or replace your screen, this

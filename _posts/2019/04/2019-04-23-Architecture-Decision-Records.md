@@ -3,9 +3,6 @@ categories: ["meetups/gdg-bdx"]
 title: "Architecture Decision Records"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Google News
 
 * During the Google Next 2019 event, new projects have been announced: [Anthos](https://cloud.google.com/anthos/){:rel="nofollow"},

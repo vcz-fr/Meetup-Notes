@@ -3,11 +3,7 @@ categories: ["meetups/afup-bdx"]
 title: "Designing resilient apps in 2020"
 ---
 
-{% include time.md %}
-
 By [Mickaël Andrieu](https://twitter.com/AndrieuMickael){:rel="nofollow"}, Software architect & Instructor
-
-{% include toc.md %}
 
 ## The recent history of PrestaShop
 

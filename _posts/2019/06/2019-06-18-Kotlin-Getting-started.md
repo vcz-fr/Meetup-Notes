@@ -3,12 +3,8 @@ categories: ["meetups/gdg-bdx"]
 title: "Kotlin: Zero to Hero"
 ---
 
-{% include time.md %}
-
 By [Marc Wieser](https://twitter.com/marcwieserdev){:rel="nofollow"}, Software engineer @ Orange Business Services  
 [Slides](https://docs.google.com/presentation/d/1hoMbmI8agdJzftzbHE2Z-tEO0hQvbN1dRPBBsr6zKPg){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Context
 

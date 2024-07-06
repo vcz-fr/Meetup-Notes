@@ -3,13 +3,9 @@ categories: ["meetups/bdx-io"]
 title: "Webhooks: Not as trivial as it may seem"
 ---
 
-{% include time.md %}
-
 By [Guillaume Laforge](https://twitter.com/glaforge){:rel="nofollow"}, Developer advocate @ Google  
 [Video \[FR\]](https://www.youtube.com/watch?v=DRf7-dmhNHA){:rel="nofollow"} - [Slides](https://speakerdeck.com/glaforge/implementing-webhooks-not-as-trivial-as-it-may-seem){:rel="nofollow"} -
 [Blog post](https://glaforge.appspot.com/article/implementing-webhooks-not-as-trivial-as-it-may-seem){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Webhooks
 

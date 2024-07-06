@@ -3,9 +3,6 @@ categories: ["meetups/onepoint-bdx"]
 title: "Improving the JavaScript ecosystem"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Biome, your new JS library
 By Julien Fettinger, Frontend Tech Lead @ Onepoint  
 [Slides](https://fjulien.github.io/conference-biome/){:rel="nofollow"}

@@ -3,12 +3,8 @@ categories: ["meetups/okiwi"]
 title: "Strategic DDD: The minimum to know about DDD"
 ---
 
-{% include time.md %}
-
 By [Jean-Baptiste Dusseaut](https://twitter.com/bodysplash){:rel="nofollow"}, Principal Solution Architect @ LGO  
 [Video \[FR\]](https://vimeo.com/340070507){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Getting to know DDD
 

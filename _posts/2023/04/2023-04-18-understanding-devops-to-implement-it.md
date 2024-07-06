@@ -3,10 +3,7 @@ categories: ["meetups/ippevents"]
 title: "Understanding DevOps to implement it"
 ---
 
-{% include time.md %}
-
 By Mehdi El Kouhen, Cloud & DevOps Architect @ Ippon Technologies  
-{% include toc.md %}
 
 ## What is DevOps
 

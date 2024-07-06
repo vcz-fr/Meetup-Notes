@@ -3,14 +3,10 @@ categories: ["meetups/gdg-bdx"]
 title: "The UX saved my DevOps"
 ---
 
-{% include time.md %}
-
 By [Estelle Landry](https://twitter.com/estelandry){:rel="nofollow"}, Product Owner and UX Designer @ Elium  
 By [François Teychené](https://twitter.com/fteychene){:rel="nofollow"}, Cloud developer @ Saagie
 
 [Video \[FR\]](https://www.youtube.com/watch?v=zXz2ZrL2yTM){:rel="nofollow"}
-
-{% include toc.md %}
 
 Good read, if you are interested in DevOps: [https://devops.com/](https://devops.com/){:rel="nofollow"}. Articles,
 webinars, and more.

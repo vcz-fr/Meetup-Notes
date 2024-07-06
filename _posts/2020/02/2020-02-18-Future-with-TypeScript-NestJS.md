@@ -3,11 +3,7 @@ categories: ["meetups/bdx-js"]
 title: "Build the future with TypeScript and NestJS"
 ---
 
-{% include time.md %}
-
 By [Maxence Guyonvarho](https://twitter.com/mgv_dev){:rel="nofollow"}, Fullstack developer @ AT Internet
-
-{% include toc.md %}
 
 ## Introduction
 

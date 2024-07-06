@@ -3,11 +3,7 @@ categories: ["meetups/bdx-js"]
 title: "Don't listen to Twitter: GraphQL is cool again!"
 ---
 
-{% include time.md %}
-
 By [Jean-Yves Couët](https://twitter.com/jycouet){:rel="nofollow"}, Founder @ Dynamic Process  
-
-{% include toc.md %}
 
 ## A little bit of history
 

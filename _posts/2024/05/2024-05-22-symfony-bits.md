@@ -3,9 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "Bits about Symfony"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Unlock the Power of Time: Discover the Symfony Scheduler Component
 
 By Kélian Bousquet, Developer @ SensioLabs  

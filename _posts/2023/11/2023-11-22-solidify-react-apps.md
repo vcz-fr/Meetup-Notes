@@ -3,11 +3,7 @@ categories: ["meetups/ippevents"]
 title: "SOLIDify your React applications"
 ---
 
-{% include time.md %}
-
 By Marc Etourneau, Frontend Developer @ Ippon  
-
-{% include toc.md %}
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID){:rel="nofollow"} was first and foremost designed with application
 development and Object-Oriented Programming in mind. JavaScript does not perfectly fit that model and some liberties

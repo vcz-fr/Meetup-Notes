@@ -3,11 +3,7 @@ categories: ["meetups/bdx-js"]
 title: "Micro-frontends investigations"
 ---
 
-{% include time.md %}
-
 By Sébastien Oddo, Full stack developer and Technical manager @ Ippon  
-
-{% include toc.md %}
 
 ## Teams don't scale
 

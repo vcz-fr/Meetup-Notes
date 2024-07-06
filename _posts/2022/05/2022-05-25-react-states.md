@@ -3,12 +3,8 @@ categories: ["meetups/bdx-js"]
 title: "React in all of its states"
 ---
 
-{% include time.md %}
-
 By [Amélie Benoit](https://twitter.com/ameliebenoit33){:rel="nofollow"}, Senior Software Engineer @ Busbud  
 [Slides](https://raw.githubusercontent.com/abenoit/react-states/main/React%20dans%20tous%20ses%20e%CC%81tats%20-%20Devoxx%202022.pdf){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## State of the Art
 

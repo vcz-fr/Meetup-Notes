@@ -3,11 +3,7 @@ categories: ["meetups/afup-bdx"]
 title: "Redis, a developer's Swiss knife"
 ---
 
-{% include time.md %}
-
 By Jonathan Barbin, Senior PHP Engineer @ ekino  
-
-{% include toc.md %}
 
 ## About Redis
 

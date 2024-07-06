@@ -32,8 +32,10 @@ defaults:
       path: _posts
     values:
       layout: post
+      toc: true
 
 plugins:
+  - jekyll-toc
   - jekyll-sitemap
   - jekyll-readme-index
   - jekyll-default-layout

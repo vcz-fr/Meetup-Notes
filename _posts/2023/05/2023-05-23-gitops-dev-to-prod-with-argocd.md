@@ -3,10 +3,7 @@ categories: ["meetups/ippevents"]
 title: "GitOps: From dev to prod with ArgoCD"
 ---
 
-{% include time.md %}
-
 By [Vivien Maleze](https://twitter.com/VMaleze){:rel="nofollow"}, Architect @ Ippon Technologies  
-{% include toc.md %}
 
 ## X as Code
 

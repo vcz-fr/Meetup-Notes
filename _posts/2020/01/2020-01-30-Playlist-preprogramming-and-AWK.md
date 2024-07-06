@@ -3,9 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "Playlist preprogramming and AWK"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Playlist preprogramming, from almost nothing to something cool
 
 By [Pierre Bertrand](https://twitter.com/pbnpierre){:rel="nofollow"}, Web developer @ Deezer  

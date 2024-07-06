@@ -3,9 +3,6 @@ categories: ["meetups/rock-n-cloud"]
 title: "Scaling with the Cloud"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## How to adjust infra on GCP to keep up with the load?
 By Jérémie Richardeau, JS Lead developer @ Wanteeed  
 By Christophe Héral, VP of Engineering @ Wanteeed

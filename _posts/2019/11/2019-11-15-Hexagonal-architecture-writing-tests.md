@@ -3,15 +3,11 @@ categories: ["meetups/bdx-io"]
 title: "Hexagonal architecture: how to write solid tests?"
 ---
 
-{% include time.md %}
-
 By [Jordan Nourry](https://twitter.com/jknourry){:rel="nofollow"}, Senior developer @ Shodo  
 By [Julien Topçu](https://twitter.com/julientopcu){:rel="nofollow"}, Tech Lead @ Société Générale  
 [Video \[FR\]](https://www.youtube.com/watch?v=v--zkIEciq4){:rel="nofollow"}
 
 Recommended read: [5 levels of tests](https://martinfowler.com/articles/microservice-testing/#conclusion-summary){:rel="nofollow"}
-
-{% include toc.md %}
 
 ## Tests and beyond
 

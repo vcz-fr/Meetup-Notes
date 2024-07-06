@@ -3,9 +3,6 @@ categories: ["meetups/aws-vie"]
 title: "Growing organizations on AWS"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Getting started with cost optimizing on AWS
 
 By Matthias Allitsch-Wutte, Senior Startup Solution Architect @ AWS

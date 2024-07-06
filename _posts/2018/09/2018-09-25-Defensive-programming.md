@@ -3,9 +3,6 @@ categories: ["meetups/afup-bdx"]
 title: "Defensive programming"
 ---
 
-{% include time.md %}
-{% include toc.md %}
-
 ## Good or Bad repository?
 
 By [Arnaud Langlade](https://twitter.com/arnolanglade){:rel="nofollow"}, Developer @ Akeneo / Sylios  
