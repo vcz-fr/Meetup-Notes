@@ -27,8 +27,8 @@ Here is an example of generational scaling with the GPT model:
 |Model|Dataset size|Est. parameters|
 |GPT 1|1 to 2 billion tokens*|0.11B|
 |GPT 2|10 to 20 billion tokens*|1.4B|
-|GPT 3|1 to 2 billion tokens*|175B|
-|GPT 4|1 to 2 billion tokens*|1.8T|
+|GPT 3|300 billion tokens*|175B|
+|GPT 4|10 trillion tokens*|1.8T|
 
 *One token is about one word
 
