@@ -4,7 +4,8 @@ title: "Threat modeling for developers & Kubernetes"
 ---
 
 ## Threat modeling for developers
-By Jonathan Marcil, Application Security Specialist
+By Jonathan Marcil, Application Security Specialist  
+[Slides](https://docs.google.com/presentation/d/1AMlkmPII6ZA9AYOOvUCcgRTwvJYItL4flrSijQX5VKQ/present){:rel="nofollow"}
 
 Threat Modeling has a [Manifesto](https://www.threatmodelingmanifesto.org/){:rel="nofollow"} and a [Capabilities catalog](https://www.threatmodelingmanifesto.org/capabilities/){:rel="nofollow"}
 written by 15 people with diverse backgrounds. Why did it deserve so much attention? What is it? As stated on the
