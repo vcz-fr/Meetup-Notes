@@ -8,12 +8,12 @@ By Jérôme Petazzoni, Kubernetes trainer
 
 ## Disclaimers
 
-We don't work with containers to work with containers: this belongs to a trend that transformed the web industry for the
-last ten years.
+Don't work with containers for the sake of working with containers: this technology has been transforming the industry
+for the last ten years.
 
-There is no best or bad practice as practices are situational. By solely working with best practices and anti-patterns,
-one may find contradictory statements. This is because advice has to be taken with the context that comes with it and
-the context grounds the practice. As much as best practices lead to compounding benefits, anti-patterns do too.
+There is no best or bad practice as practices are situational. By solely working in best practices and anti-patterns,
+one may find contradictory statements. This is because advice has to be considered within context; the context grounds
+the practice. As much as best practices lead to compounding benefits, anti-patterns do too.
 
 ## Practices
 ### Fat images
