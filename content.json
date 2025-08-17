@@ -1,0 +1,27 @@
+---
+---
+{
+  "meetups": [
+    {%- assign word_count = 0 -%}
+    {%- assign this_word_count = 0 -%}
+    {%- for post in site.posts -%}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | absolute_url | jsonify }},
+      "date": {{ post.date | jsonify }},
+      "content": {{ post.content | strip_html | normalize_whitespace | jsonify }},
+      "categories": {{ post.categories | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ],
+  "categories": [
+    {%- assign categories = site.pages | where: "layout","collection" -%}
+    {%- for category in categories -%}
+    {
+      "id": {{ category.collection | jsonify }},
+      "name": {{ category.human-name | jsonify }},
+      "url": {{ category.url | absolute_url | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
