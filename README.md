@@ -1,22 +1,19 @@
 [![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/){:rel="nofollow"}
 
-# Meetup notes
+This repository contains the notes I have taken during events and conferences I attended. They are not exhaustive and
+may contain more than what was presented live.
 
-This repository contains the notes I have taken during my meetups. They are not exhaustive and may contain more than
-what happens during the presentations.
+Even though this repository is personal, you can contribute by reporting mistakes and suggesting enhancements so that
+the notes become richer and available to more people. Knowledge that is not freely available gets eventually lost.
 
-> [Browse the meetup groups](/meetups/)
-
-## How to contribute?
-
-Even though this repository is personal, you can report mistakes and propose enhancements so that the notes become
-richer, available to more minds, etc. If you are a meetup enthusiast, do not hesitate to contact me so that we can add
-each other in our READMEs!
+<div style="text-align: center;">
+    <a href="/meetups/" style="display: inline-block; background-color: #809; border-radius: 2rem; border: none; margin: 1rem 0 4rem; padding: 1rem 2rem; color: white; font-weight: bold">Browse the meetup groups</a>
+</div>
 
 ## Who am I?
 
-This image links to my personal website:  
-[![Vincenzo Scalzi's logo](/assets/global/images/vcz.png)](https://vcz.fr/)
+I'm **Vincenzo Scalzi**, engineer and curious about everything. If you like what you've seen here, consider visiting my [website](https://vcz.fr/)
+and reaching out!
 
 ## License
 
