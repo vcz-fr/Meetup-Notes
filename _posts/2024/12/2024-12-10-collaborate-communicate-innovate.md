@@ -103,3 +103,63 @@ learning and practicing public speaking.
 The recommendations vary depending the size of the audience, though it is generally recommended not to focus too much on
 the same point. Deviating from the audience for a brief moment is okay. Then there are strategies, like scanning in the
 shape of an "L" or a "W".
+
+## Making a clean sweep of a scope when nobody asked for it
+By Pierre Segalen, Mobile & Web Maker @ XII (twelve)
+
+In 2015, in the "mobility" team of a large French e-commerce actor, a revolution was stirring. At the time, the team was
+small, comprised of one tech person, and two business and product owners, plus a tech lead / scrum master. The ecosystem
+was a monolithic ASP .NET service with native Android and iOS apps that were showing age, developed externally and with
+an API that was left to rot for three years. The situation was dire and things weren't moving fast. Let's see, month
+after month, how this team undertook a transformation that was not meant to be and changed their company for the better,
+durably.
+
+In June of the same year, seeing the evolution of the market, something changed: six tech people, four business people,
+an ambitious roadmap, yat still an API that left a lot to be desired and complexity with maintaining the existing
+software legacy.
+
+Then disaster struck in July: deep budget cuts. 45M€ had to be saved in six months and this meant freeing no less than
+280 contractors. The offices were empty and the relation with the management were at a low. One month went by.
+
+In August, the "mobility" team was looking for work to do, with no success. Redesigning the API was the only sensible
+thing to do, so it proceeded without formal validation from the top.
+
+Comes September and another bad news struck: the budget cuts also affects the mobile apps maintenance. The "mobility"
+team had to learn about a dozen of technologies from the Android and Apple ecosystems to keep the apps from decaying.
+Or... they could implement a hybrid app that could work for both ecosystems using technologies like [Cordova](https://cordova.apache.org/){:rel="nofollow"} or [Xamarin](https://xamarin.github.io/){:rel="nofollow"}.
+
+October 2015, and the tasks came back. Also with them a presentation of the API redesign effort, which was announced as
+75% complete in just 90 days. The architects could not believe it and criticized the design decisions, even though the
+feedback was overwhelmingly positive and the project validated!
+
+In December 2015, the release of [React Native](https://reactnative.dev/){:rel="nofollow"} shook the tech world! 
+Internally, it led to slides and meetings with the CIO. Risks were analyzed, insider information from the React Native
+team, return on investment and alternatives were considered. The truly convincing slide was the one that dived into
+three scenarios: no app redesign, separate native apps and React Native. Plus one more thing: introduce React on the web
+to unity the tech stack and create bridges across web and mobile teams. This sold it.
+
+February 2016 saw the start of this effort. In the end, the old API and apps were decommissioned in a year. This change
+has endured the wrinkles of time.
+
+### Questions and Answers
+
+#### In retrospect, how do you feel about the project?
+
+Everything happened when we were young, and at the time we believed the hierarchy has full control over the destiny of
+their products. There was an opportunity, we learned to seize it by being bold and detaching from the grind.
+
+#### What was the "return on investment" argument?
+
+The points were taken from everything that was available to the development team. First and foremost, the app stores
+with their notes and comments, the bugs, spinners, general slowness and ever increasing time to add new features. These
+flaws were common knowledge.
+
+Everything could have been redeveloped from scratch, in native app form. The ROI argument was the only option because
+the company had no choice but to comply, as competitors were already seeing 60% of their traffic coming from mobile
+devices.
+
+#### Did you have any prior experience with big migrations?
+
+A few yes, but none that required ths much practice or support. Migrating is not about a skill but rather a mindset of
+questioning oneself. The code alone cannot embody the context or migration opportunity, there must be business aspects
+to justify a migration.
