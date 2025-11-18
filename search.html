@@ -1,0 +1,20 @@
+---
+layout: default
+title: Search
+---
+
+<link rel="stylesheet" href="/assets/css/search.css" />
+
+<div class="search-wrapper">
+    <h1>Search Meetups</h1>
+
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="Type to start searching..." autocomplete="off">
+        <span id="search-status" class="status-indicator"></span>
+    </div>
+
+    <div id="search-results" class="results-container"></div>
+</div>
+
+<script async defer src="/assets/js/fuse.min.js"></script>
+<script async defer src="/assets/js/search.js"></script>

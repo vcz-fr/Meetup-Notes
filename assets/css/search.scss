@@ -1,0 +1,147 @@
+---
+---
+
+.search-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.search-box {
+  position: relative;
+  margin-bottom: 2rem;
+
+  input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: #333;
+    }
+  }
+
+  .status-indicator {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.85rem;
+    color: #888;
+  }
+}
+
+.results-container {
+  .result-item {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.25rem;
+      a {
+        text-decoration: none;
+        color: #000;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      color: #999;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .excerpt {
+      margin: 0 0 1rem 0;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      .category-tag {
+        font-size: 0.75rem;
+        background-color: #f0f0f0;
+        color: #555;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: background 0.2s;
+
+        &:hover {
+          background-color: #e0e0e0;
+          color: #333;
+        }
+      }
+    }
+  }
+
+  /* DEFAULT STATE: Hide the 16th item and onwards */
+  .result-item:nth-child(n + 16) {
+    display: none;
+  }
+
+  /* EXPANDED STATE: Show everything when this class is added */
+  &.expanded {
+    .result-item:nth-child(n + 16) {
+      display: block;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+  }
+
+  .no-results {
+    text-align: center;
+    color: #777;
+    margin-top: 2rem;
+  }
+
+  /* Style for the button */
+  .show-more-btn {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.75rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
