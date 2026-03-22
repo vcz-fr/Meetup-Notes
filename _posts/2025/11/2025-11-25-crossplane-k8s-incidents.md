@@ -3,7 +3,7 @@ categories: ["meetups/cncf-bdx"]
 title: "Crossplane and Kubernetes incidents"
 ---
 
-## Crossplane: Deploy Cloud resources fron Kubernetes with no drift
+## Crossplane: Deploy Cloud resources from Kubernetes with no drift
 By Vivien Ramahandry, Lead SRE @ Jump
 
 ### Context
